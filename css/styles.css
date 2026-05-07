@@ -1,161 +1,164 @@
-        :root {
-            --primary: #2c3e50;
-            --accent: #e74c3c;
-            --bg: #ecf0f1;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: burlywood;/*var(--bg)*/
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            margin: 0;
-            font-size: 30px;
-        }
-        .container {
-            width: 100%;
-            max-width: 600px;
-        }
-        .header {
-            text-align: center;
-            color: var(--primary);
-        }
-        .card {
-            background-color: transparent;
-            width: 100%;
-            height: clamp(360px, 62vh, 560px);
-            perspective: 1000px;
-            cursor: pointer;
-            margin-bottom: 20px;
-        }
-        .card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            border-radius: 15px;
-        }
-        .card.is-flipped .card-inner {
-            transform: rotateY(180deg);
-        }
-        .card-front, .card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-            box-sizing: border-box;
-            border-radius: 15px;
-        }
-        .card-front {
-            background-color: blanchedalmond;/*white*/
-            color: var(--primary);
-            font-size: 0.95em;
-        }
-        .card-back {
-            background-color: var(--primary);
-            color: white;/*white*/
-            transform: rotateY(180deg);
-            font-size: 0.95em;
-            text-align: center;/*left*/
-        }
-        .controls {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            width: 100%;
-        }
-        #front-text {
-            font-size: clamp(1em, 2.4vw, 1.2em);/*1rem, 2.4vw, 1.2rem*/
-            font-weight: bold;
-            line-height: 1.4;
-        }
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: var(--primary);
-            color: white;
-            cursor: pointer;
-            font-weight: bold;
-            min-height: 44px;
-        }
-        button:hover {
-            opacity: 0.9;
-        }
-        .difficulty {
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            font-size: 0.4em;/*0.8rem*/
-        }
-        .easy { color: #27ae60; }
-        .inter { color: #f39c12; }
-        .hard { color: #c0392b; }
-        .step { margin-bottom: 5px; border-left: 3px solid var(--accent); padding-left: 10px; }
+:root {
+  --primary: #2c3e50;
+   --accent: #e74c3c;
+  --bg: #ecf0f1;
+  }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;/*var(--bg)*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 30px;
+  }
+.container {
+    width: 100%;
+    max-width: 600px;
+  }
+.header {
+    text-align: center;
+    color: var(--primary);
+  }
+.card {
+    background-color: transparent;
+    width: 100%;
+    height: clamp(360px, 62vh, 560px);
+    perspective: 1000px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    font-size: 1.5em;
+  }
+.card.is-flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+.card-front {
+    background-color: blanchedalmond;/*white*/
+    color: var(--primary);
+    font-size: 1em;
+    text-align: center;
+  }
+.card-back {
+    background-color: var(--primary);
+    color: white;/*white*/
+    transform: rotateY(180deg);
+    font-size: 1em;
+    text-align: center;/*left*/
+  }
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+#front-text {
+    font-size: clamp(1.2em, 2.4vw, 1.2em);/*1rem, 2.4vw, 1.2rem*/
+    font-weight: bold;
+    line-height: 1.4;
+  }
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    min-height: 44px;
+  }
+button:hover {
+    opacity: 0.9;
+  }
+.difficulty {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 0.4em;/*0.8rem*/
+  }
+.easy { color: #27ae60; }
+.inter { color: #f39c12; }
+.hard { color: #c0392b; }
+.step { margin-bottom: 5px; border-left: 3px solid var(--accent); padding-left: 10px; }
 
-        @media (max-width: 600px) {
-            body {
-                padding: 12px;
-            }
-            .header h1 {
-                font-size: 1.4rem;
-                margin-bottom: 8px;
-            }
-            .header p {
-                margin-top: 0;
-                font-size: 0.95rem;
-            }
-            .card {
-                height: clamp(420px, 70vh, 620px);
-            }
-            .card-front, .card-back {
-                padding: 16px;
-            }
-            .card-back {
-                /*font-size: 1rem;*/
-                line-height: 1.45;
-            }
-            .controls {
-                gap: 8px;
-            }
-            button {
-                flex: 1;
-                padding: 10px 12px;
-            }
-            #counter {
-                font-size: 0.95rem;
-                min-width: 68px;
-                text-align: center;
-            }
-        }
+@media (max-width: 600px) {
+  body {
+      padding: 12px;
+    }
+  .header h1 {
+      font-size: 1em;/*1.4rem*/
+      margin-bottom: 8px;
+    }
+  .header p {
+      margin-top: 0;
+      font-size: 0.95rem;
+    }
+  .card {
+      height: clamp(420px, 70vh, 620px);
+    }
+  .card-front, .card-back {
+      padding: 16px;
+    }
+  .card-back {
+      /*font-size: 1rem;*/
+      line-height: 1.45;
+    }
+  .controls {
+      gap: 8px;
+    }
+  button {
+      flex: 1;
+      padding: 10px 12px;
+    }
+  #counter {
+      font-size: 0.95rem;
+      min-width: 68px;
+      text-align: center;
+    }
+  }
 
-        .hint {
-            margin-top: 20px;
-          
-            font-size: 0.6em;/*14px*/
-            letter-spacing: 0.5px;
-          
-            color: #95a5a6;
-          
-            opacity: 0.8;
-          
-            transition: opacity 0.3s ease;
-          }
-          
-          .card:hover .hint {
-            opacity: 1;
-          }
+.hint {
+    margin-top: 20px;
+    font-size: 0.4em;/*14px*/
+    letter-spacing: 0.5px;
+    color: #95a5a6;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+.card:hover .hint {
+    opacity: 1;
+  }
+/*
+p {
+  font-size: 0.5em;
+}
+*/
 
 /* ==============================
    AUDIO BUTTON
@@ -164,30 +167,30 @@
 .audio-btn {
     width: 60px;
     height: 60px;
-  
+
     border: none;
     border-radius: 50%;
-  
+
     cursor: pointer;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
     margin: 20px auto;
-  
+
     font-size: 24px;
-  
+
     background: #2c3e50;
     color: white;
-  
+
     transition: all 0.2s ease;
   }
-  
-  .audio-btn:hover {
+
+.audio-btn:hover {
     transform: scale(1.08);
   }
-  
-  .audio-btn:active {
+
+.audio-btn:active {
     transform: scale(0.95);
   }

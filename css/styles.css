@@ -636,13 +636,35 @@ body {
 
     color: var(--text);
 
-    font-size: 1.2rem;
-
     cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 
     transition:
         transform 0.15s ease,
         background 0.2s ease;
+}
+
+
+.icon-arrow {
+
+    display: block;
+
+    width: 24px;
+
+    height: 24px;
+
+    flex-shrink: 0;
+}
+
+
+.icon-arrow--mirror {
+
+    transform: scaleX(-1);
 }
 
 
@@ -701,15 +723,27 @@ body {
 
     color: var(--text);
 
-    font-size: 1.1rem;
-
     cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 
     transition:
         transform 0.15s ease,
         opacity 0.2s ease;
 
     opacity: 0.4;
+}
+
+
+#backBtn .icon-arrow {
+
+    width: 16px;
+
+    height: 16px;
 }
 
 #backBtn:active {

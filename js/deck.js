@@ -49,6 +49,63 @@ let revealed = false;
 
 
 // =========================
+// UI SOUNDS
+// =========================
+
+const navClickSound =
+    new Audio("sounds/click.mp3");
+
+function playNavClick() {
+
+    navClickSound.currentTime = 0;
+
+    navClickSound.play().catch(() => {});
+}
+
+
+// =========================
+// DECK LEVEL THEME
+// =========================
+
+async function loadDeckLevel() {
+
+    if (!deckId || !flashcard) return;
+
+    try {
+
+        const response =
+            await fetch("decks/index.json");
+
+        const list = await response.json();
+
+        const entry =
+            list.find((d) => d.id === deckId);
+
+        if (!entry?.level) {
+
+            flashcard.removeAttribute("data-level");
+
+            return;
+        }
+
+        const slug =
+            String(entry.level).trim().toLowerCase();
+
+        flashcard.dataset.level = slug;
+
+    } catch (error) {
+
+        console.error(
+            "Error loading deck level:",
+            error
+        );
+
+        flashcard.removeAttribute("data-level");
+    }
+}
+
+
+// =========================
 // LOAD CARDS
 // =========================
 
@@ -129,6 +186,8 @@ flashcard.addEventListener("click", () => {
 
 nextBtn.addEventListener("click", () => {
 
+    playNavClick();
+
     currentIndex++;
 
     if (currentIndex >= cards.length) {
@@ -147,6 +206,8 @@ nextBtn.addEventListener("click", () => {
 // =========================
 
 prevBtn.addEventListener("click", () => {
+
+    playNavClick();
 
     currentIndex--;
 
@@ -196,4 +257,7 @@ audioBtn.addEventListener("click", () => {
 // INIT
 // =========================
 
-loadCards();
+Promise.all([
+    loadDeckLevel(),
+    loadCards(),
+]);

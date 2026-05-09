@@ -1,0 +1,55 @@
+<!-- deck.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Flash Cards English</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="deck-topbar">
+    <button id="backBtn">
+      ←
+    </button>
+    <p id="progress">
+      1 / 15
+    </p>
+  </header>
+
+  <main class="study-screen">
+    <!-- CARD -->
+    <section class="flashcard" id="flashcard">
+      <div class="card-content">
+        <p class="card-text" id="cardText">
+          I'm alright
+        </p>
+        <p class="card-hint" id="cardHint">
+          Tap to reveal
+        </p>
+      </div>
+    </section>
+
+    <!-- AUDIO -->
+    <button class="audio-btn" id="audioBtn">
+      🔊
+    </button>
+
+    <!-- NAVIGATION -->
+    <section class="navigation">
+      <button class="nav-btn" id="prevBtn">
+        ⬅
+      </button>
+      <button class="nav-btn" id="nextBtn">
+        ➡
+      </button>
+    </section>
+  </main>
+
+  <script src="js/deck.js"></script>
+</body>
+</html>

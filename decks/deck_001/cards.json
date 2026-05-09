@@ -1,0 +1,106 @@
+[
+  {
+    "id": "A1_01",
+    "en": "I'm alright",
+    "es": "Estoy bien",
+    "audio": "audio/im_alright.mp3"
+  },
+
+  {
+    "id": "A1_02",
+    "en": "Pleased to meet you",
+    "es": "Encantado de conocerte",
+    "audio": "audio/pleased_to_meet_you.mp3"
+  },
+
+  {
+    "id": "A1_03",
+    "en": "Don't mention it",
+    "es": "Ni lo menciones",
+    "audio": "audio/dont_mention_it.mp3"
+  },
+
+  {
+    "id": "A1_04",
+    "en": "Best of luck",
+    "es": "La mejor de las suertes",
+    "audio": "audio/best_of_luck.mp3"
+  },
+
+  {
+    "id": "A1_05",
+    "en": "Here you are",
+    "es": "Aquí lo tienes",
+    "audio": "audio/here_you_are.mp3"
+  },
+
+  {
+    "id": "A1_06",
+    "en": "That's enough",
+    "es": "Es suficiente",
+    "audio": "audio/thats_enough.mp3"
+  },
+
+  {
+    "id": "A1_07",
+    "en": "I trust you",
+    "es": "Confío en ti",
+    "audio": "audio/i_trust_you.mp3"
+  },
+
+  {
+    "id": "A1_08",
+    "en": "Did you get it?",
+    "es": "¿Lo entendiste?",
+    "audio": "audio/did_you_get_it.mp3"
+  },
+
+  {
+    "id": "A1_09",
+    "en": "Cheer up!",
+    "es": "¡Anímate!",
+    "audio": "audio/cheer_up.mp3"
+  },
+
+  {
+    "id": "A1_10",
+    "en": "So long",
+    "es": "Hasta la vista",
+    "audio": "audio/so_long.mp3"
+  },
+
+  {
+    "id": "A1_11",
+    "en": "Look for",
+    "es": "Buscar",
+    "audio": "audio/look_for.mp3"
+  },
+
+  {
+    "id": "A1_12",
+    "en": "Go on",
+    "es": "Continuar",
+    "audio": "audio/go_on.mp3"
+  },
+
+  {
+    "id": "A1_13",
+    "en": "Slow down",
+    "es": "Ir más despacio",
+    "audio": "audio/slow_down.mp3"
+  },
+
+  {
+    "id": "A1_14",
+    "en": "Come back",
+    "es": "Regresar",
+    "audio": "audio/come_back.mp3"
+  },
+
+  {
+    "id": "A1_15",
+    "en": "Get away",
+    "es": "Alejarse",
+    "audio": "audio/get_away.mp3"
+  }
+]

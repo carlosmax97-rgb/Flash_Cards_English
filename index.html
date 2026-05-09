@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Cards English</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <h1>Flash Cards English</h1>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <p>
+        Selecciona un mazo para comenzar.
+      </p>
+    </section>
+
+    <section id="deck-list" class="deck-list">
+      <!-- Deck -->
+      <!-- version con boton "abrir"
+      <div class="deck-card">
+        <img src="decks/deck_001/cover.svg" alt="deck-cover" class="deck-cover">
+        <div class="deck-info">
+          <div class="deck-header">
+            <h2>Frases Cotidianas</h2>
+            <span class="level level-a1">A1</span>
+          </div>
+          <p>40 tarjetas</p>
+          <button class="open-btn">
+            Abrir
+          </button>
+        </div>
+      </div>
+      -->
+
+      <!-- Deck -->
+      <a href="deck.html?deck=deck_001" class="deck-card">
+          <img src="decks/deck_001/cover.svg"
+              alt="deck-cover"
+              class="deck-cover">
+          <div class="deck-info">
+              <div class="deck-header">
+                  <h2>Frases Cotidianas</h2>
+                  <span class="level level-a1">
+                      A1
+                  </span>
+              </div>
+              <p>40 tarjetas</p>
+          </div>
+      </a>
+
+      <!-- Deck -->
+      <a href="deck.html?deck=deck_002" class="deck-card">
+          <img src="decks/deck_002/cover.svg"
+              alt="deck-cover"
+              class="deck-cover">
+          <div class="deck-info">
+              <div class="deck-header">
+                  <h2>Verbos Irregulares</h2>
+                  <span class="level level-a2">
+                      A2
+                  </span>
+              </div>
+              <p>40 tarjetas</p>
+          </div>
+      </a>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

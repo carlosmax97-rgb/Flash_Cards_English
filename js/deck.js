@@ -62,6 +62,8 @@ function playNavClick() {
     navClickSound.play().catch(() => {});
 }
 
+const tapSound =
+    new Audio("sounds/tap_flip.mp3");
 
 // =========================
 // DECK LEVEL THEME
@@ -175,6 +177,13 @@ function renderCard() {
 flashcard.addEventListener("click", () => {
 
     revealed = !revealed;
+
+    // sonido al revelar y volver
+    tapSound.pause();
+
+    tapSound.currentTime = 0;
+
+    tapSound.play();
 
     renderCard();
 });

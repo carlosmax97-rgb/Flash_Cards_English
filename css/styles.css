@@ -62,7 +62,7 @@ body {
 
 .topbar h1 {
 
-    font-size: 3em;/*2rem*/
+    font-size: 4em;/*2rem*/
 
     font-weight: 600;
 
@@ -101,7 +101,7 @@ body {
 
     line-height: 1.6;
 
-    font-size: 1em;/*1rem*/
+    font-size: 2em;/*1rem*/
 
     text-align: center;
 }
@@ -137,7 +137,7 @@ body {
 
     overflow: hidden;
 
-    border: 1px solid var(--border);
+    border: 1px solid white;/*1px solid var(--border)*/
 
     display: flex;
 
@@ -272,7 +272,7 @@ body {
 
     border-radius: 999px;
 
-    font-size: .78rem;
+    font-size: 1em;/*78rem*/
 
     font-weight: 700;
 
@@ -357,7 +357,7 @@ body {
 
     .topbar h1 {
 
-        font-size: 2.1em;/*2.1rem*/
+        font-size: 4em;/*2.1rem*/
     }
 
     .deck-cover {
@@ -367,7 +367,7 @@ body {
 
     .deck-header h2 {
 
-        font-size: 1.55em;/*1.2rem*/
+        font-size: 2em;/*1.2rem*/
     }
 
     .deck-info {
@@ -569,9 +569,9 @@ body {
 
 .audio-btn {
 
-    width: 88px;/*68px*/
+    width: 98px;/*68px*/
 
-    height: 88px;/*68px*/
+    height: 98px;/*68px*/
 
     border: none;
 
@@ -601,7 +601,7 @@ body {
 
 .audio-btn:active {
 
-    transform: scablockle(0.94);
+    transform: scale(0.94);/*scablockle(0.94)*/
 }
 
 
@@ -613,8 +613,8 @@ body {
 /*icono-speaker*/
 .icon-speaker {
 
-    width: 36px;
-    height: 36px;
+    width: 46px;
+    height: 46px;
     display: block;
     flex-shrink: 0;
 
@@ -638,9 +638,9 @@ body {
 
 .nav-btn {
 
-    width: 78px;/*58px*/
+    width: 88px;/*58px*/
 
-    height: 78px;/*58px*/
+    height: 88px;/*58px*/
 
     border: none;
 
@@ -668,9 +668,9 @@ body {
 
     display: block;
 
-    width: 44px;
+    width: 64px;
 
-    height: 44px;
+    height: 64px;
 
     flex-shrink: 0;
 }
@@ -720,9 +720,9 @@ body {
 
     text-align: center;
 
-    width: 70px;
+    width: 140px;
 
-    height: 30px;
+    height: 50px;
 
     border: none;
 
@@ -755,9 +755,9 @@ body {
 
 #backBtn .icon-arrow {
 
-    width: 26px;
+    width: 46px;
 
-    height: 26px;
+    height: 46px;
 }
 
 #backBtn:active {
@@ -769,7 +769,7 @@ body {
 
     color: var(--muted);
 
-    font-size: 1em;/*0.95rem*/
+    font-size: 2em;/*0.95rem*/
 
     opacity: 0.7;
 

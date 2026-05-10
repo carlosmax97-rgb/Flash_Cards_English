@@ -62,7 +62,7 @@ body {
 
 .topbar h1 {
 
-    font-size: 2rem;
+    font-size: 3em;/*2rem*/
 
     font-weight: 600;
 
@@ -101,7 +101,7 @@ body {
 
     line-height: 1.6;
 
-    font-size: 1rem;
+    font-size: 1em;/*1rem*/
 
     text-align: center;
 }
@@ -225,7 +225,7 @@ body {
 
     color: var(--muted);
 
-    font-size: .96rem;
+    font-size: 1em;/*.96rem*/
 
     line-height: 1.5;
 
@@ -251,7 +251,7 @@ body {
 
     color: var(--text);
 
-    font-size: 1.55rem;
+    font-size: 1.55em;/*1.55rem*/
 
     line-height: 1.1;
 
@@ -357,7 +357,7 @@ body {
 
     .topbar h1 {
 
-        font-size: 2.1rem;
+        font-size: 2.1em;/*2.1rem*/
     }
 
     .deck-cover {
@@ -367,7 +367,7 @@ body {
 
     .deck-header h2 {
 
-        font-size: 1.2rem;
+        font-size: 1.55em;/*1.2rem*/
     }
 
     .deck-info {
@@ -542,7 +542,7 @@ body {
 
 .card-text {
 
-    font-size: 3rem;
+    font-size: 3em;/*3rem*/
 
     line-height: 1.4;
 }
@@ -554,7 +554,7 @@ body {
 
 .card-hint {
 
-    font-size: 0.95rem;
+    font-size: 1em;/*0.95rem*/
 
     color: var(--muted);
 
@@ -569,9 +569,9 @@ body {
 
 .audio-btn {
 
-    width: 68px;
+    width: 88px;/*68px*/
 
-    height: 68px;
+    height: 88px;/*68px*/
 
     border: none;
 
@@ -579,9 +579,9 @@ body {
 
     background: var(--accent);
 
-    color: white;
+    color: var(--bg);
 
-    font-size: 1.4rem;
+    /*font-size: 1.4rem;*/
 
     cursor: pointer;
 
@@ -591,12 +591,17 @@ body {
 
     box-shadow:
         0 0 20px rgba(76,139,245,0.15);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 .audio-btn:active {
 
-    transform: scale(0.94);
+    transform: scablockle(0.94);
 }
 
 
@@ -605,6 +610,15 @@ body {
     opacity: 0.92;
 }
 
+/*icono-speaker*/
+.icon-speaker {
+
+    width: 36px;
+    height: 36px;
+    display: block;
+    flex-shrink: 0;
+
+}
 
 /* =========================
    NAVIGATION
@@ -624,9 +638,9 @@ body {
 
 .nav-btn {
 
-    width: 58px;
+    width: 78px;/*58px*/
 
-    height: 58px;
+    height: 78px;/*58px*/
 
     border: none;
 
@@ -654,9 +668,9 @@ body {
 
     display: block;
 
-    width: 24px;
+    width: 44px;
 
-    height: 24px;
+    height: 44px;
 
     flex-shrink: 0;
 }
@@ -708,7 +722,7 @@ body {
 
     width: 70px;
 
-    height: 20px;
+    height: 30px;
 
     border: none;
 
@@ -741,9 +755,9 @@ body {
 
 #backBtn .icon-arrow {
 
-    width: 16px;
+    width: 26px;
 
-    height: 16px;
+    height: 26px;
 }
 
 #backBtn:active {
@@ -755,7 +769,9 @@ body {
 
     color: var(--muted);
 
-    font-size: 0.95rem;
+    font-size: 1em;/*0.95rem*/
 
     opacity: 0.7;
+
+    padding-top: 6px;
 }

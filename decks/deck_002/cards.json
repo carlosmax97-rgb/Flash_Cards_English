@@ -1,6 +1,98 @@
-{
-  "id": "A2_01",
-  "front": "Safe and sound",
-  "back": "Sano y a salvo",
-  "audio": "audio/safe_and_sound.mp3"
-}
+[
+  {
+    "id": "A2_01",
+    "en": "What's going on?",
+    "es": "¿Qué está pasando?",
+    "audio": "audio/whats_going_on.mp3"
+  },
+  {
+    "id": "A2_02",
+    "en": "I have no clue",
+    "es": "No tengo ni idea",
+    "audio": "audio/i_have_no_clue.mp3"
+  },
+  {
+    "id": "A2_03",
+    "en": "No harm done",
+    "es": "No pasó nada",
+    "audio": "audio/no_harm_done.mp3"
+  },
+  {
+    "id": "A2_04",
+    "en": "There you go!",
+    "es": "Ahí tienes",
+    "audio": "audio/there_you_go.mp3"
+  },
+  {
+    "id": "A2_05",
+    "en": "I can't afford it",
+    "es": "No puedo pagarlo",
+    "audio": "audio/i_cant_afford_it.mp3"
+  },
+  {
+    "id": "A2_06",
+    "en": "What are you waiting for?",
+    "es": "¿Qué estás esperando?",
+    "audio": "audio/what_are_you_waiting_for.mp3"
+  },
+  {
+    "id": "A2_07",
+    "en": "Keep it up",
+    "es": "Sigue así",
+    "audio": "audio/keep_it_up.mp3"
+  },
+  {
+    "id": "A2_08",
+    "en": "It's not a big deal",
+    "es": "No es para tanto",
+    "audio": "audio/its_not_a_big_deal.mp3"
+  },
+  {
+    "id": "A2_09",
+    "en": "No wonder",
+    "es": "No me extraña",
+    "audio": "audio/no_wonder.mp3"
+  },
+  {
+    "id": "A2_10",
+    "en": "Wait and see",
+    "es": "Espera y verás",
+    "audio": "audio/wait_and_see.mp3"
+  },
+  {
+    "id": "A2_11",
+    "en": "Time is up",
+    "es": "Se acabó el tiempo",
+    "audio": "audio/time_is_up.mp3"
+  },
+  {
+    "id": "A2_12",
+    "en": "I mean it",
+    "es": "Lo digo en serio",
+    "audio": "audio/i_mean_it.mp3"
+  },
+  {
+    "id": "A2_13",
+    "en": "What's the big deal?",
+    "es": "¿Qué es tan importante?",
+    "audio": "audio/whats_the_big_deal.mp3"
+  },
+  {
+    "id": "A2_14",
+    "en": "That was close",
+    "es": "Eso estuvo cerca",
+    "audio": "audio/that_was_close.mp3"
+  },
+  {
+    "id": "A2_15",
+    "en": "My bad",
+    "es": "Mi culpa",
+    "audio": "audio/my_bad.mp3"
+  },
+  {
+    "id": "A2_16",
+    "en": "You got this",
+    "es": "Lo tienes",
+    "audio": "audio/you_got_this.mp3"
+  }
+]

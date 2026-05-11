@@ -137,7 +137,7 @@ body {
 
     overflow: hidden;
 
-    border: 1px solid white;/*1px solid var(--border)*/
+    border: 1px solid var(--text);/*1px solid var(--border)*/
 
     display: flex;
 
@@ -161,7 +161,7 @@ body {
 
     transform: translateY(-2px);
 
-    border-color: #ffffff;/*#3a3a3a*/
+    border-color: var(--text);/*#3a3a3a*/
 
     background:
         linear-gradient(
@@ -414,7 +414,7 @@ body {
 
     background: var(--card);
 
-    border: 1px solid var(--border);
+    border: 1px solid var(--text);
 
     border-radius: var(--radius);
 
@@ -454,7 +454,7 @@ body {
             #141a17 100%
         );
 
-    border-color: rgba(99, 193, 116, 0.22);
+    /*border-color: rgba(99, 193, 116, 0.22);*/
 }
 
 .flashcard[data-level="a2"] {
@@ -466,7 +466,7 @@ body {
             #141820 100%
         );
 
-    border-color: rgba(90, 169, 255, 0.22);
+    /*border-color: rgba(90, 169, 255, 0.22);*/
 }
 
 .flashcard[data-level="b1"] {

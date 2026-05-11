@@ -272,7 +272,7 @@ body {
 
     border-radius: 999px;
 
-    font-size: 1em;/*78rem*/
+    font-size: 1.5em;/*78rem*/
 
     font-weight: 700;
 
@@ -447,24 +447,25 @@ body {
 
 .flashcard[data-level="a1"] {
 
-    background:
-        linear-gradient(
+    background:#8fbc8bff
+        /*linear-gradient(
             180deg,
             #1a221e 0%,
             #141a17 100%
-        );
+        );*/
 
     /*border-color: rgba(99, 193, 116, 0.22);*/
+
 }
 
 .flashcard[data-level="a2"] {
 
-    background:
-        linear-gradient(
+    background:#5f9ea0fd
+        /*linear-gradient(
             180deg,
             #1a1f28 0%,
             #141820 100%
-        );
+        );*/
 
     /*border-color: rgba(90, 169, 255, 0.22);*/
 }
@@ -545,6 +546,8 @@ body {
     font-size: 3em;/*3rem*/
 
     line-height: 1.4;
+
+    color: var(--bg);
 }
 
 
@@ -577,7 +580,11 @@ body {
 
     border-radius: 50%;
 
-    background: var(--accent);
+    /*background: var(--accent);*/
+
+    background: var(--muted);
+
+    /*border-color: 1px solid var(--muted);*/
 
     color: var(--bg);
 
@@ -589,8 +596,8 @@ body {
         transform 0.15s ease,
         opacity 0.2s ease;
 
-    box-shadow:
-        0 0 20px rgba(76,139,245,0.15);
+    /*box-shadow:
+        0 0 20px rgba(76,139,245,0.15);*/
 
     display: flex;
     align-items: center;
@@ -642,7 +649,10 @@ body {
 
     height: 88px;/*58px*/
 
-    border: none;
+    /*border: none;*/
+
+    border: 1px solid var(--muted);
+
 
     border-radius: 50%;
 
@@ -714,6 +724,7 @@ body {
     padding-top: 20px;
 
     gap: 8px;
+
 }
 
 .deck-topbar-slot {
@@ -735,7 +746,7 @@ body {
 
 #backBtn {
 
-    color: var(--text);
+    color: var(--muted);
 
     cursor: pointer;
 
@@ -750,6 +761,10 @@ body {
         opacity 0.2s ease;
 
     opacity: 0.4;
+
+    border: 1px solid var(--muted);
+
+    border-radius: var(--radius);
 }
 
 
@@ -771,7 +786,11 @@ body {
 
     font-size: 2em;/*0.95rem*/
 
-    opacity: 0.7;
+    opacity: 0.4;
 
     padding-top: 6px;
+
+    border: 1px solid var(--muted);
+
+    border-radius: var(--radius);
 }

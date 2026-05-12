@@ -94,5 +94,53 @@
     "en": "You got this",
     "es": "Lo tienes",
     "audio": "audio/you_got_this.mp3"
+  },
+  {
+    "id": "A2_17",
+    "en": "I'm gonna take a nap",
+    "es": "Voy a tomar un descanso",
+    "audio": "audio/im_gonna_take_a_nap.mp3"
+  },
+  {
+    "id": "A2_18",
+    "en": "Come on buddy",
+    "es": "Vamos amigo",
+    "audio": "audio/come_buddy.mp3"
+  },
+  {
+    "id": "A2_19",
+    "en": "God bless you",
+    "es": "Dios te bendiga",
+    "audio": "audio/god_bless_you.mp3"
+  },
+  {
+    "id": "A2_20",
+    "en": "Check this out!",
+    "es": "¡Mira esto!",
+    "audio": "audio/check_this_out.mp3"
+  },
+  {
+    "id": "A2_21",
+    "en": "Hey dude!",
+    "es": "¡Hola amigo!",
+    "audio": "audio/hey_dude.mp3"
+  },
+  {
+    "id": "A2_22",
+    "en": "How wonderful!",
+    "es": "¡Qué maravilloso!",
+    "audio": "audio/how_wonderful.mp3"
+  },
+  {
+    "id": "A2_23",
+    "en": "Thanks a bunch",
+    "es": "Un montón de gracias",
+    "audio": "audio/thanks_a_bunch.mp3"
+  },
+  {
+    "id": "A2_24",
+    "en": "Don't waste your time",
+    "es": "No pierdas tu tiempo",
+    "audio": "audio/dont_waste_your_time.mp3"
   }
 ]

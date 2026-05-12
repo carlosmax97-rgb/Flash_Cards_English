@@ -1,0 +1,122 @@
+[
+  {
+    "id": "B1_01",
+    "en": "What's the catch?",
+    "es": "¿Cuál es el truco?",
+    "audio": "audio/whats_the_catch.mp3"
+  },
+  {
+    "id": "B1_02",
+    "en": "Same old, same old",
+    "es": "Lo mismo de siempre",
+    "audio": "audio/same_old_same_old.mp3"
+  },
+  {
+    "id": "B1_03",
+    "en": "Beats me",
+    "es": "Ni idea",
+    "audio": "audio/beats_me.mp3"
+  },
+  {
+    "id": "B1_04",
+    "en": "You can say that again",
+    "es": "Tienes toda la razón",
+    "audio": "audio/you_can_say_that_again.mp3"
+  },
+  {
+    "id": "B1_05",
+    "en": "Just say the word",
+    "es": "Solo dilo",
+    "audio": "audio/just_say_the_word.mp3"
+  },
+  {
+    "id": "B1_06",
+    "en": "I don't buy it",
+    "es": "No me lo creo",
+    "audio": "audio/i_dont_buy_it.mp3"
+  },
+  {
+    "id": "B1_07",
+    "en": "Call it a day",
+    "es": "Dar algo por terminado",
+    "audio": "audio/call_it_a_day.mp3"
+  },
+  {
+    "id": "B1_08",
+    "en": "Easy does it",
+    "es": "Con calma",
+    "audio": "audio/easy_does_it.mp3"
+  },
+  {
+    "id": "B1_09",
+    "en": "Tell me about it",
+    "es": "Dímelo a mí",
+    "audio": "audio/tell_me_about_it.mp3"
+  },
+  {
+    "id": "B1_10",
+    "en": "Go with the flow",
+    "es": "Dejarse llevar",
+    "audio": "audio/go_with_the_flow.mp3"
+  },
+  {
+    "id": "B1_11",
+    "en": "Rings a bell",
+    "es": "Me suena",
+    "audio": "audio/rings_a_bell.mp3"
+  },
+  {
+    "id": "B1_12",
+    "en": "Point taken",
+    "es": "Te entiendo",
+    "audio": "audio/point_taken.mp3"
+  },
+  {
+    "id": "B1_13",
+    "en": "Long story short",
+    "es": "Resumiendo",
+    "audio": "audio/long_story_short.mp3"
+  },
+  {
+    "id": "B1_14",
+    "en": "Out of the blue",
+    "es": "Como caído del cielo",
+    "audio": "audio/out_of_the_blue.mp3"
+  },
+  {
+    "id": "B1_15",
+    "en": "Safe and sound",
+    "es": "Sano y salvo",
+    "audio": "audio/safe_and_sound.mp3"
+  },
+  {
+    "id": "B1_16",
+    "en": "Stay out of it",
+    "es": "No te metas",
+    "audio": "audio/stay_out_of_it.mp3"
+  },
+  {
+    "id": "B1_17",
+    "en": "Keep me posted",
+    "es": "Manténme informado",
+    "audio": "audio/keep_me_posted.mp3"
+  },
+  {
+    "id": "B1_18",
+    "en": "We're on the same page",
+    "es": "Pensamos lo mismo",
+    "audio": "audio/were_on_the_same_page.mp3"
+  },
+  {
+    "id": "B1_19",
+    "en": "Are you for real?",
+    "es": "¿Lo dices en serio?",
+    "audio": "audio/are_you_for_real.mp3"
+  },
+  {
+    "id": "B1_20",
+    "en": "Easy come, easy go",
+    "es": "Lo que fácil viene, fácil se va",
+    "audio": "audio/easy_come_easy_go.mp3"
+  }
+]

@@ -448,43 +448,50 @@ body {
 .flashcard[data-level="a1"] {
 
     background:#8fbc8bff
-        /*linear-gradient(
+        /*
+        linear-gradient(
             180deg,
             #1a221e 0%,
             #141a17 100%
-        );*/
+        );
 
-    /*border-color: rgba(99, 193, 116, 0.22);*/
+    border-color: rgba(99, 193, 116, 0.22);
+    */
 
 }
 
 .flashcard[data-level="a2"] {
 
     background:#5f9ea0fd
-        /*linear-gradient(
+        /*
+        linear-gradient(
             180deg,
             #1a1f28 0%,
             #141820 100%
-        );*/
+        );
 
-    /*border-color: rgba(90, 169, 255, 0.22);*/
+    border-color: rgba(90, 169, 255, 0.22);
+    */
 }
 
 .flashcard[data-level="b1"] {
 
     background:#FA8072
-        /*linear-gradient(
+        /*
+        linear-gradient(
             180deg,
             #221f18 0%,
             #1a1812 100%
-        );*/
+        );
 
-    /*border-color: rgba(255, 193, 7, 0.2);*/
+    border-color: rgba(255, 193, 7, 0.2);
+    */
 }
 
 .flashcard[data-level="b2"] {
 
-    background:
+    background: #18141c
+        /*
         linear-gradient(
             180deg,
             #201a22 0%,
@@ -492,11 +499,13 @@ body {
         );
 
     border-color: rgba(217, 140, 255, 0.22);
+    */
 }
 
 .flashcard[data-level="c1"] {
 
-    background:
+    background: #1a1614
+        /*
         linear-gradient(
             180deg,
             #221c1a 0%,
@@ -504,11 +513,13 @@ body {
         );
 
     border-color: rgba(232, 120, 100, 0.2);
+    */
 }
 
 .flashcard[data-level="c2"] {
 
-    background:
+    background: #13191c
+        /*
         linear-gradient(
             180deg,
             #181f22 0%,
@@ -516,6 +527,7 @@ body {
         );
 
     border-color: rgba(78, 205, 196, 0.2);
+    */
 }
 
 

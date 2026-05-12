@@ -297,9 +297,9 @@ body {
 
 .level-b1 {
 
-    background: #2D1C19;/*rgba(255,193,7,.14)*/
+    background: #271716;/*rgba(255,193,7,.14)*/
 
-    color: #FA8072;/*#ffe083*/
+    color: #CD5C5C;/*#ffe083*/
 }
 
 
@@ -476,7 +476,7 @@ body {
 
 .flashcard[data-level="b1"] {
 
-    background:#FA8072
+    background:#CD5C5C
         /*
         linear-gradient(
             180deg,

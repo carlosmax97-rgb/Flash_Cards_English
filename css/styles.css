@@ -270,7 +270,7 @@ body {
 
     padding: 6px 11px;
 
-    border-radius: 999px;
+    border-radius: 9px;/*999px*/
 
     font-size: 1.5em;/*78rem*/
 
@@ -283,23 +283,23 @@ body {
 
 .level-a1 {
 
-    background: rgba(92,184,92,.14);
+    background: #1D231D; /*rgba(92,184,92,.14)*/
 
     color: #8fbc8bff;/*#90f5a0*/
 }
 
 .level-a2 {
 
-    background: rgba(76,139,245,.14);
+    background: #171F1F; /*rgba(76,139,245,.14)*/
 
     color: #5f9ea0fd;/*#9bbcff*/
 }
 
 .level-b1 {
 
-    background: rgba(255,193,7,.14);
+    background: #2D1C19;/*rgba(255,193,7,.14)*/
 
-    color: #ffe083;
+    color: #FA8072;/*#ffe083*/
 }
 
 
@@ -472,14 +472,14 @@ body {
 
 .flashcard[data-level="b1"] {
 
-    background:
-        linear-gradient(
+    background:#FA8072;
+        /*linear-gradient(
             180deg,
             #221f18 0%,
             #1a1812 100%
-        );
+        );*/
 
-    border-color: rgba(255, 193, 7, 0.2);
+    /*border-color: rgba(255, 193, 7, 0.2);*/
 }
 
 .flashcard[data-level="b2"] {
@@ -543,15 +543,16 @@ body {
 
 .card-text {
 
-    font-size: 4em;/*3rem*/
+    font-size: 2.5em;/*3rem*/
 
     line-height: 1;/*1.4*/
 
     color: var(--bg);
 
-    font-family: "Pangolin", cursive;
-    font-weight: 400;
-    font-style: normal;
+    /*font-family: "sans-serif";*/
+    font-weight: 600;
+    letter-spacing: -0.02em;
+
 }
 
 
@@ -663,7 +664,7 @@ body {
 
     background: #222;
 
-    color: var(--text);
+    color: var(--muted);
 
     cursor: pointer;
 

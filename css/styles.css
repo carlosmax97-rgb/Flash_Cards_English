@@ -285,14 +285,14 @@ body {
 
     background: rgba(92,184,92,.14);
 
-    color: #90f5a0;
+    color: #8fbc8bff;/*#90f5a0*/
 }
 
 .level-a2 {
 
     background: rgba(76,139,245,.14);
 
-    color: #9bbcff;
+    color: #5f9ea0fd;/*#9bbcff*/
 }
 
 .level-b1 {
@@ -543,11 +543,15 @@ body {
 
 .card-text {
 
-    font-size: 3em;/*3rem*/
+    font-size: 2em;/*3rem*/
 
     line-height: 1.4;
 
     color: var(--bg);
+
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -559,9 +563,10 @@ body {
 
     font-size: 1em;/*0.95rem*/
 
-    color: var(--muted);
+    /*color: var(--muted);*/
+    color: var(--bg);
 
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 
 }
 
@@ -760,11 +765,11 @@ body {
         transform 0.15s ease,
         opacity 0.2s ease;
 
-    opacity: 0.4;
+    /*opacity: 0.4;*/
 
     border: 1px solid var(--muted);
 
-    border-radius: var(--radius);
+    border-radius: 9px;/*var(--radius)*/
 }
 
 
@@ -784,13 +789,13 @@ body {
 
     color: var(--muted);
 
-    font-size: 2em;/*0.95rem*/
+    font-size: 1.5em;/*0.95rem*/
 
-    opacity: 0.4;
+    /*opacity: 0.4;*/
 
-    padding-top: 6px;
+    padding-top: 12px;
 
     border: 1px solid var(--muted);
 
-    border-radius: var(--radius);
+    border-radius: 8px;/*var(--radius)*/
 }

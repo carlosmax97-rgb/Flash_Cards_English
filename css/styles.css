@@ -653,7 +653,7 @@ body {
 
     display: flex;
 
-    gap: 60px;
+    gap: 10px;/*60px*/
 }
 
 
@@ -749,7 +749,7 @@ body {
 
     text-align: center;
 
-    width: 140px;
+    width: 100px;/*140px*/
 
     height: 50px;
 
@@ -811,6 +811,8 @@ body {
     border: 1px solid var(--muted);
 
     border-radius: 8px;/*var(--radius)*/
+
+    margin-top: 20px;
 }
 
 /* ==================================

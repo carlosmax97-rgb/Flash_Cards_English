@@ -653,7 +653,7 @@ body {
 
     display: flex;
 
-    gap: 10px;/*60px*/
+    gap: 2px;/*60px*/
 }
 
 
@@ -749,9 +749,9 @@ body {
 
     text-align: center;
 
-    width: 100px;/*140px*/
+    width: 88px;/*140px*/
 
-    height: 50px;
+    height: 44px;/*50px*/
 
     border: none;
 
@@ -798,21 +798,43 @@ body {
     transform: scale(0.9);
 }
 
+
+/*=========
+CONTADOR
+======== */
+
+.contador {
+
+    text-align: center;
+
+    width: 70px;/*140px*/
+
+    height: 70px;/*50px*/
+
+    border: none;
+
+    border-radius: 10%;
+
+    /*background: #222;*/
+
+    padding: 2px;
+}
+
 #progress {
 
     color: var(--muted);
 
-    font-size: 1.5em;/*0.95rem*/
+    font-size: 1.2em;/*0.95rem*/
 
     /*opacity: 0.4;*/
 
-    padding-top: 12px;
+    padding-top: 36px;/*12px*/
 
-    border: 1px solid var(--muted);
+    /*border: 1px solid var(--muted);*/
 
-    border-radius: 8px;/*var(--radius)*/
+    /*border-radius: 8px;var(--radius)*/
 
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 /* ==================================

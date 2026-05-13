@@ -812,3 +812,23 @@ body {
 
     border-radius: 8px;/*var(--radius)*/
 }
+
+/* ==================================
+Quitar highlight táctil en móviles
+=================================== */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}

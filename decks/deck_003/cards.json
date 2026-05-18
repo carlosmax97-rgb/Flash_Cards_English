@@ -118,5 +118,35 @@
     "en": "Easy come, easy go",
     "es": "Lo que fácil viene, fácil se va",
     "audio": "audio/easy_come_easy_go.mp3"
+  },
+  {
+    "id": "B1_21",
+    "en": "That's sick!",
+    "es": "¡Eso es increible!",
+    "audio": "audio/thats_sick.mp3"
+  },
+  {
+    "id": "B1_22",
+    "en": "You rock!",
+    "es": "¡Eres increíble!",
+    "audio": "audio/you_rock.mp3"
+  },
+  {
+    "id": "B1_23",
+    "en": "Believe it or not",
+    "es": "Lo creas o no",
+    "audio": "audio/believe_it_or_not.mp3"
+  },
+  {
+    "id": "B1_24",
+    "en": "As you wish",
+    "es": "Como desees",
+    "audio": "audio/as_you_wish.mp3"
+  },
+  {
+    "id": "B1_25",
+    "en": "Face facts",
+    "es": "Enfrenta los hechos",
+    "audio": "audio/face_facts.mp3"
   }
 ]

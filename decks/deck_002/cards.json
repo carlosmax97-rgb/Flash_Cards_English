@@ -142,5 +142,83 @@
     "en": "Don't waste your time",
     "es": "No pierdas tu tiempo",
     "audio": "audio/dont_waste_your_time.mp3"
+  },
+  {
+    "id": "A2_25",
+    "en": "Brand new",
+    "es": "Completamente nuevo",
+    "audio": "audio/brand_new.mp3"
+  },
+  {
+    "id": "A2_26",
+    "en": "On time",
+    "es": "A tiempo",
+    "audio": "audio/on_time.mp3"
+  },
+  {
+    "id": "A2_27",
+    "en": "Waste time",
+    "es": "Perder tiempo",
+    "audio": "audio/waste_time.mp3"
+  },
+  {
+    "id": "A2_28",
+    "en": "All day long",
+    "es": "Todo el día",
+    "audio": "audio/all_day_long.mp3"
+  },
+  {
+    "id": "A2_29",
+    "en": "Day by day",
+    "es": "Día tras día",
+    "audio": "audio/day_by_day.mp3"
+  },
+  {
+    "id": "A2_30",
+    "en": "On the way",
+    "es": "En camino",
+    "audio": "audio/on_the_way.mp3"
+  },
+  {
+    "id": "A2_31",
+    "en": "What's new?",
+    "es": "¿Qué hay de nuevo?",
+    "audio": "audio/whats_new.mp3"
+  },
+  {
+    "id": "A2_32",
+    "en": "Take a look",
+    "es": "Echa un vistazo",
+    "audio": "audio/take_a_look.mp3"
+  },
+  {
+    "id": "A2_33",
+    "en": "It's worthless",
+    "es": "No vale la pena",
+    "audio": "audio/its_worthless.mp3"
+  },
+  {
+    "id": "A2_34",
+    "en": "In the meantime",
+    "es": "Mientras tanto",
+    "audio": "audio/in_the_meantime.mp3"
+  },
+  {
+    "id": "A2_35",
+    "en": "Not a chance",
+    "es": "De ninguna manera",
+    "audio": "audio/not_a_chance.mp3"
+  },
+  {
+    "id": "A2_36",
+    "en": "That's what I mean",
+    "es": "A eso me refiero",
+    "audio": "audio/thats_what_i_mean.mp3"
+  },
+  {
+    "id": "A2_37",
+    "en": "What a shame",
+    "es": "Qué lástima",
+    "audio": "audio/what_a_shame.mp3"
   }
 ]

@@ -302,6 +302,13 @@ body {
     color: #FFA07A;/*#ffe083*/
 }
 
+.level-b2 {
+
+    background: #2E1512;
+
+    color: #F94545;
+}
+
 
 /* =========================
    BUTTON
@@ -490,7 +497,7 @@ body {
 
 .flashcard[data-level="b2"] {
 
-    background: #18141c
+    background: #F94545
         /*
         linear-gradient(
             180deg,
@@ -849,4 +856,11 @@ button:focus {
 * {
     -webkit-user-select: none;
     user-select: none;
+}
+
+/* ===================
+Salto de linea en json
+==================== */
+.card-back {
+  white-space: pre-line;
 }

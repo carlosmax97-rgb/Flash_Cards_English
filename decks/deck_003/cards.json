@@ -148,5 +148,131 @@
     "en": "Face facts",
     "es": "Enfrenta los hechos",
     "audio": "audio/face_facts.mp3"
+  },
+  {
+    "id": "B1_26",
+    "en": "Speak plainly",
+    "es": "Hablar claro",
+    "audio": "audio/speak_plainly.mp3"
+  },
+  {
+    "id": "B1_27",
+    "en": "Every now and then",
+    "es": "De vez en cuando",
+    "audio": "audio/every_now_and_then.mp3"
+  },
+  {
+    "id": "B1_28",
+    "en": "As a rule",
+    "es": "Por lo general",
+    "audio": "audio/as_a_rule.mp3"
+  },
+  {
+    "id": "B1_29",
+    "en": "Get into trouble",
+    "es": "Meterse en problemas",
+    "audio": "audio/get_into_trouble.mp3"
+  },
+  {
+    "id": "B1_30",
+    "en": "Point of view",
+    "es": "Punto de vista",
+    "audio": "audio/point_of_view.mp3"
+  },
+  {
+    "id": "B1_31",
+    "en": "In no time",
+    "es": "Al instante",
+    "audio": "audio/in_no_time.mp3"
+  },
+  {
+    "id": "B1_32",
+    "en": "In any case",
+    "es": "En cualquier caso",
+    "audio": "audio/in_any_case.mp3"
+  },
+  {
+    "id": "B1_33",
+    "en": "I'm not in the mood",
+    "es": "No tengo ganas",
+    "audio": "audio/im_not_in_the_mood.mp3"
+  },
+  {
+    "id": "B1_34",
+    "en": "What's on your mind",
+    "es": "¿En qué piensas?",
+    "audio": "audio/whats_on_your_mind.mp3"
+  },
+  {
+    "id": "B1_35",
+    "en": "If you say so",
+    "es": "Si tú lo dices",
+    "audio": "audio/if_you_say_so.mp3"
+  },
+  {
+    "id": "B1_36",
+    "en": "I'm running late",
+    "es": "Se me hace tarde",
+    "audio": "audio/im_running_late.mp3"
+  },
+  {
+    "id": "B1_37",
+    "en": "Damn it!",
+    "es": "¡Maldita sea!",
+    "audio": "audio/damn_it.mp3"
+  },
+  {
+    "id": "B1_38",
+    "en": "I'll give it a shot",
+    "es": "Lo intentaré",
+    "audio": "audio/ill give_it_a_shot.mp3"
+  },
+  {
+    "id": "B1_39",
+    "en": "That was a close call",
+    "es": "Eso estuvo cerca",
+    "audio": "audio/that_was_a_close_call.mp3"
+  },
+  {
+    "id": "B1_40",
+    "en": "What a mess!",
+    "es": "¡Qué desastre!",
+    "audio": "audio/what_a_mess.mp3"
+  },
+  {
+    "id": "B1_41",
+    "en": "Keep an eye on",
+    "es": "Echar un ojo / Vigilar",
+    "audio": "audio/keep_an_eye_on.mp3"
+  },
+  {
+    "id": "B1_42",
+    "en": "It's on the house",
+    "es": "La casa invita",
+    "audio": "audio/its_on_the_house.mp3"
+  },
+  {
+    "id": "B1_43",
+    "en": "Once in a lifetime",
+    "es": "Una vez en la vida",
+    "audio": "audio/once_in_a_lifetime.mp3"
+  },
+  {
+    "id": "B1_44",
+    "en": "Shake a leg",
+    "es": "Apresúrate",
+    "audio": "audio/shake_a_leg.mp3"
+  },
+  {
+    "id": "B1_45",
+    "en": "Start from scratch",
+    "es": "Empezar desde cero",
+    "audio": "audio/start_from_scratch.mp3"
+  },
+  {
+    "id": "B1_46",
+    "en": "The sooner, the better",
+    "es": "Cuanto antes, mejor",
+    "audio": "audio/the_sooner_the_better.mp3"
   }
 ]

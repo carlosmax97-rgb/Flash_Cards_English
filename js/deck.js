@@ -122,6 +122,9 @@ async function loadCards() {
 
         cards = await response.json();
 
+        // MEZCLAR TARJETAS
+        shuffleDeck(cards);
+
         console.log(cards);
 
         renderCard();
@@ -261,7 +264,6 @@ audioBtn.addEventListener("click", () => {
     audio.play();
 });
 
-
 // =========================
 // INIT
 // =========================
@@ -270,3 +272,4 @@ Promise.all([
     loadDeckLevel(),
     loadCards(),
 ]);
+

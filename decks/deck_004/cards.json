@@ -70,5 +70,41 @@
     "en": "Make a point",
     "es": "Dejar algo en claro",
     "audio": "audio/make_a_point.mp3"
+  },
+  {
+    "id": "B2_13",
+    "en": "Speak of the devil",
+    "es": "Hablando del rey de Roma",
+    "audio": "audio/speak_of_the_devil.mp3"
+  },
+  {
+    "id": "B2_14",
+    "en": "What's good?",
+    "es": "¿Qué tal?",
+    "audio": "audio/whats_good.mp3"
+  },
+  {
+    "id": "B2_15",
+    "en": "I'm down for that",
+    "es": "Estoy de acuerdo con eso",
+    "audio": "audio/im_down_for_that.mp3"
+  },
+  {
+    "id": "B2_16",
+    "en": "Break a leg",
+    "es": "Buena suerte",
+    "audio": "audio/break_a_leg.mp3"
+  },
+  {
+    "id": "B2_17",
+    "en": "I couldn't care less",
+    "es": "Me importa un pepino",
+    "audio": "audio/i_couldnt_care_less.mp3"
+  },
+  {
+    "id": "B2_18",
+    "en": "Don't get me wrong",
+    "es": "No me malinterpretes",
+    "audio": "audio/dont_get_me_wrong.mp3"
   }
 ]

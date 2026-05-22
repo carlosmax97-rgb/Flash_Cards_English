@@ -274,5 +274,23 @@
     "en": "The sooner, the better",
     "es": "Cuanto antes, mejor",
     "audio": "audio/the_sooner_the_better.mp3"
+  },
+  {
+    "id": "B1_47",
+    "en": "Let's hang out",
+    "es": "Vamos a vernos",
+    "audio": "audio/lets_hang_out.mp3"
+  },
+  {
+    "id": "B1_48",
+    "en": "Take it easy",
+    "es": "Tranquilo/a",
+    "audio": "audio/take_it_easy.mp3"
+  },
+  {
+    "id": "B1_49",
+    "en": "Good for you",
+    "es": "Me alegro por ti",
+    "audio": "audio/good_for_you.mp3"
   }
 ]

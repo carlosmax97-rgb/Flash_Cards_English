@@ -220,5 +220,17 @@
     "en": "What a shame",
     "es": "Qué lástima",
     "audio": "audio/what_a_shame.mp3"
+  },
+  {
+    "id": "A2_38",
+    "en": "Don't worry about it",
+    "es": "No hay problema",
+    "audio": "audio/dont_worry_about_it.mp3"
+  },
+  {
+    "id": "A2_39",
+    "en": "No way",
+    "es": "De ninguna manera",
+    "audio": "audio/no_way.mp3"
   }
 ]

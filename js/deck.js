@@ -47,6 +47,9 @@ let currentIndex = 0;
 
 let revealed = false;
 
+let currentCard = null;
+
+let repeatQueue = [];
 
 // =========================
 // UI SOUNDS
@@ -64,6 +67,13 @@ function playNavClick() {
 
 const tapSound =
     new Audio("sounds/tap_flip.mp3");
+
+
+let buttonSound =
+    new Audio("sounds/good_bad.mp3"
+);
+
+
 
 // =========================
 // DECK LEVEL THEME
@@ -122,15 +132,35 @@ async function loadCards() {
 
         cards = await response.json();
 
+        // =================
+        // INICIALIZAR STATS
+        // =================
+
+        cards.forEach(card => {
+            if (!card.stats) {
+                card.stats = {
+                    good: 0,
+                    bad: 0
+                };
+            }
+        });
+
+        // ================
         // MEZCLAR TARJETAS
+        // ================
+
         shuffleDeck(cards);
 
-        console.log(cards);
-
+        // =====================
+        // ASIGNAR PRIMERA TARJETA
+        // =====================
+        currentCard = cards[currentIndex];
+        console.log(currentCard);
         renderCard();
 
+        console.log(cards);
+        renderCard();
     } catch (error) {
-
         console.error(
             "Error loading cards:",
             error
@@ -142,7 +172,6 @@ async function loadCards() {
 // =========================
 // RENDER CARD
 // =========================
-
 function renderCard() {
 
     if (cards.length === 0) return;
@@ -173,6 +202,34 @@ function renderCard() {
     }
 }
 
+// ==================================
+// NEXT CARD para clasificar tarjetas
+// ==================================
+
+function nextCard() {
+
+    if (
+        repeatQueue.length > 0 &&
+        Math.random() < 0.5
+    ) {
+
+        currentCard =
+            repeatQueue.shift();
+
+    } else {
+
+        currentIndex++;
+
+        currentCard =
+            cards[currentIndex];
+
+    }
+
+    renderCard();
+
+}
+
+
 // =========================
 // REVEAL CARD
 // =========================
@@ -190,7 +247,6 @@ flashcard.addEventListener("click", () => {
 
     renderCard();
 });
-
 
 // =========================
 // NEXT CARD
@@ -273,3 +329,38 @@ Promise.all([
     loadCards(),
 ]);
 
+// ================
+// BOTON GOOD - BAD
+// ================
+
+document
+  .getElementById("btn-good")
+  .addEventListener("click", () => {
+
+    buttonSound.currentTime = 0;
+    buttonSound.play();
+
+    currentCard.stats.good++;
+
+    //nextCard();
+
+});
+
+document
+  .getElementById("btn-bad")
+  .addEventListener("click", () => {
+
+    buttonSound.currentTime = 0;
+    buttonSound.play();
+
+    currentCard.stats.bad++;
+
+    if (!repeatQueue.includes(currentCard)) {
+
+      repeatQueue.push(currentCard);
+
+    }
+
+    //nextCard();
+
+});

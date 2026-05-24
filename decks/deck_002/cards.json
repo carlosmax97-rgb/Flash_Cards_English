@@ -3,234 +3,429 @@
     "id": "A2_01",
     "en": "What's going on?",
     "es": "¿Qué está pasando?",
-    "audio": "audio/whats_going_on.mp3"
+    "audio": "audio/whats_going_on.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_02",
     "en": "I have no clue",
     "es": "No tengo ni idea",
-    "audio": "audio/i_have_no_clue.mp3"
+    "audio": "audio/i_have_no_clue.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_03",
     "en": "No harm done",
     "es": "No pasó nada",
-    "audio": "audio/no_harm_done.mp3"
+    "audio": "audio/no_harm_done.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_04",
     "en": "There you go!",
     "es": "Ahí tienes",
-    "audio": "audio/there_you_go.mp3"
+    "audio": "audio/there_you_go.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_05",
     "en": "I can't afford it",
     "es": "No puedo pagarlo",
-    "audio": "audio/i_cant_afford_it.mp3"
+    "audio": "audio/i_cant_afford_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_06",
     "en": "What are you waiting for?",
     "es": "¿Qué estás esperando?",
-    "audio": "audio/what_are_you_waiting_for.mp3"
+    "audio": "audio/what_are_you_waiting_for.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_07",
     "en": "Keep it up",
     "es": "Sigue así",
-    "audio": "audio/keep_it_up.mp3"
+    "audio": "audio/keep_it_up.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_08",
     "en": "It's not a big deal",
     "es": "No es para tanto",
-    "audio": "audio/its_not_a_big_deal.mp3"
+    "audio": "audio/its_not_a_big_deal.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_09",
     "en": "No wonder",
     "es": "No me extraña",
-    "audio": "audio/no_wonder.mp3"
+    "audio": "audio/no_wonder.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_10",
     "en": "Wait and see",
     "es": "Espera y verás",
-    "audio": "audio/wait_and_see.mp3"
+    "audio": "audio/wait_and_see.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_11",
     "en": "Time is up",
     "es": "Se acabó el tiempo",
-    "audio": "audio/time_is_up.mp3"
+    "audio": "audio/time_is_up.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_12",
     "en": "I mean it",
     "es": "Lo digo en serio",
-    "audio": "audio/i_mean_it.mp3"
+    "audio": "audio/i_mean_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_13",
     "en": "What's the big deal?",
     "es": "¿Qué es tan importante?",
-    "audio": "audio/whats_the_big_deal.mp3"
+    "audio": "audio/whats_the_big_deal.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_14",
     "en": "That was close",
     "es": "Eso estuvo cerca",
-    "audio": "audio/that_was_close.mp3"
+    "audio": "audio/that_was_close.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_15",
     "en": "My bad",
     "es": "Mi culpa",
-    "audio": "audio/my_bad.mp3"
+    "audio": "audio/my_bad.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_16",
     "en": "You got this",
     "es": "Lo tienes",
-    "audio": "audio/you_got_this.mp3"
+    "audio": "audio/you_got_this.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_17",
     "en": "I'm gonna take a nap",
     "es": "Voy a tomar un descanso",
-    "audio": "audio/im_gonna_take_a_nap.mp3"
+    "audio": "audio/im_gonna_take_a_nap.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_18",
     "en": "Come on buddy",
     "es": "Vamos amigo",
-    "audio": "audio/come_on_buddy.mp3"
+    "audio": "audio/come_on_buddy.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_19",
     "en": "God bless you",
     "es": "Dios te bendiga",
-    "audio": "audio/god_bless_you.mp3"
+    "audio": "audio/god_bless_you.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_20",
     "en": "Check this out!",
     "es": "¡Mira esto!",
-    "audio": "audio/check_this_out.mp3"
+    "audio": "audio/check_this_out.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_21",
     "en": "Hey dude!",
     "es": "¡Hola amigo!",
-    "audio": "audio/hey_dude.mp3"
+    "audio": "audio/hey_dude.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_22",
     "en": "How wonderful!",
     "es": "¡Qué maravilloso!",
-    "audio": "audio/how_wonderful.mp3"
+    "audio": "audio/how_wonderful.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_23",
     "en": "Thanks a bunch",
     "es": "Un montón de gracias",
-    "audio": "audio/thanks_a_bunch.mp3"
+    "audio": "audio/thanks_a_bunch.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_24",
     "en": "Don't waste your time",
     "es": "No pierdas tu tiempo",
-    "audio": "audio/dont_waste_your_time.mp3"
+    "audio": "audio/dont_waste_your_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_25",
     "en": "Brand new",
     "es": "Completamente nuevo",
-    "audio": "audio/brand_new.mp3"
+    "audio": "audio/brand_new.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_26",
     "en": "On time",
     "es": "A tiempo",
-    "audio": "audio/on_time.mp3"
+    "audio": "audio/on_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_27",
     "en": "Waste time",
     "es": "Perder tiempo",
-    "audio": "audio/waste_time.mp3"
+    "audio": "audio/waste_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_28",
     "en": "All day long",
     "es": "Todo el día",
-    "audio": "audio/all_day_long.mp3"
+    "audio": "audio/all_day_long.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_29",
     "en": "Day by day",
     "es": "Día tras día",
-    "audio": "audio/day_by_day.mp3"
+    "audio": "audio/day_by_day.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_30",
     "en": "On the way",
     "es": "En camino",
-    "audio": "audio/on_the_way.mp3"
+    "audio": "audio/on_the_way.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_31",
     "en": "What's new?",
     "es": "¿Qué hay de nuevo?",
-    "audio": "audio/whats_new.mp3"
+    "audio": "audio/whats_new.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_32",
     "en": "Take a look",
     "es": "Echa un vistazo",
-    "audio": "audio/take_a_look.mp3"
+    "audio": "audio/take_a_look.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_33",
     "en": "It's worthless",
     "es": "No vale la pena",
-    "audio": "audio/its_worthless.mp3"
+    "audio": "audio/its_worthless.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_34",
     "en": "In the meantime",
     "es": "Mientras tanto",
-    "audio": "audio/in_the_meantime.mp3"
+    "audio": "audio/in_the_meantime.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_35",
     "en": "Not a chance",
     "es": "De ninguna manera",
-    "audio": "audio/not_a_chance.mp3"
+    "audio": "audio/not_a_chance.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_36",
     "en": "That's what I mean",
     "es": "A eso me refiero",
-    "audio": "audio/thats_what_i_mean.mp3"
+    "audio": "audio/thats_what_i_mean.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_37",
     "en": "What a shame",
     "es": "Qué lástima",
-    "audio": "audio/what_a_shame.mp3"
+    "audio": "audio/what_a_shame.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_38",
     "en": "Don't worry about it",
     "es": "No hay problema",
-    "audio": "audio/dont_worry_about_it.mp3"
+    "audio": "audio/dont_worry_about_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "A2_39",
     "en": "No way",
     "es": "De ninguna manera",
-    "audio": "audio/no_way.mp3"
+    "audio": "audio/no_way.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   }
 ]

@@ -3,108 +3,198 @@
     "id": "B2_01",
     "en": "This is not rocket science",
     "es": "No es tan difícil",
-    "audio": "audio/this_is_not_rocket_science.mp3"
+    "audio": "audio/this_is_not_rocket_science.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_02",
     "en": "Like father, like son",
     "es": "De tal palo tal astilla",
-    "audio": "audio/like_father_like_son.mp3"
+    "audio": "audio/like_father_like_son.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_03",
     "en": "Hold your horses",
     "es": "Tómalo con calma",
-    "audio": "audio/hold_your_horses.mp3"
+    "audio": "audio/hold_your_horses.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_04",
     "en": "Why the long face?",
     "es": "¿Por qué la cara larga?",
-    "audio": "audio/why_the_long_face.mp3"
+    "audio": "audio/why_the_long_face.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_05",
     "en": "In the nick of time",
     "es": "Justo a tiempo",
-    "audio": "audio/in_the_nick_of_time.mp3"
+    "audio": "audio/in_the_nick_of_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_06",
     "en": "Cut the crap",
     "es": "Déjate de tonterías",
-    "audio": "audio/cut_the_crap.mp3"
+    "audio": "audio/cut_the_crap.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_07",
     "en": "By no means",
     "es": "De ninguna manera",
-    "audio": "audio/by_no_means.mp3"
+    "audio": "audio/by_no_means.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_08",
     "en": "I'm not cut out for this",
     "es": "No estoy hecho para esto",
-    "audio": "audio/im_not_cut_out_for_this.mp3"
+    "audio": "audio/im_not_cut_out_for_this.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_09",
     "en": "I get the picture",
     "es": "Me hago la idea\nEntiendo",
-    "audio": "audio/i_get_the_picture.mp3"
+    "audio": "audio/i_get_the_picture.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_10",
     "en": "Kiss and make up",
     "es": "Hacer las paces",
-    "audio": "audio/kiss_and_make_up.mp3"
+    "audio": "audio/kiss_and_make_up.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_11",
     "en": "Pardon my French",
     "es": "Perdón por lo que voy a decir",
-    "audio": "audio/pardon_my_french.mp3"
+    "audio": "audio/pardon_my_french.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_12",
     "en": "Make a point",
     "es": "Dejar algo en claro",
-    "audio": "audio/make_a_point.mp3"
+    "audio": "audio/make_a_point.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_13",
     "en": "Speak of the devil",
     "es": "Hablando del rey de Roma",
-    "audio": "audio/speak_of_the_devil.mp3"
+    "audio": "audio/speak_of_the_devil.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_14",
     "en": "What's good?",
     "es": "¿Qué tal?",
-    "audio": "audio/whats_good.mp3"
+    "audio": "audio/whats_good.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_15",
     "en": "I'm down for that",
     "es": "Estoy de acuerdo con eso",
-    "audio": "audio/im_down_for_that.mp3"
+    "audio": "audio/im_down_for_that.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_16",
     "en": "Break a leg",
     "es": "Buena suerte",
-    "audio": "audio/break_a_leg.mp3"
+    "audio": "audio/break_a_leg.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_17",
     "en": "I couldn't care less",
     "es": "Me importa un pepino",
-    "audio": "audio/i_couldnt_care_less.mp3"
+    "audio": "audio/i_couldnt_care_less.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B2_18",
     "en": "Don't get me wrong",
     "es": "No me malinterpretes",
-    "audio": "audio/dont_get_me_wrong.mp3"
+    "audio": "audio/dont_get_me_wrong.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   }
 ]

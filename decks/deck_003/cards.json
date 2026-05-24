@@ -3,294 +3,539 @@
     "id": "B1_01",
     "en": "What's the catch?",
     "es": "¿Cuál es el truco?",
-    "audio": "audio/whats_the_catch.mp3"
+    "audio": "audio/whats_the_catch.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_02",
     "en": "Same old, same old",
     "es": "Lo mismo de siempre",
-    "audio": "audio/same_old_same_old.mp3"
+    "audio": "audio/same_old_same_old.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_03",
     "en": "Beats me",
     "es": "Ni idea",
-    "audio": "audio/beats_me.mp3"
+    "audio": "audio/beats_me.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_04",
     "en": "You can say that again",
     "es": "Tienes toda la razón",
-    "audio": "audio/you_can_say_that_again.mp3"
+    "audio": "audio/you_can_say_that_again.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_05",
     "en": "Just say the word",
     "es": "Solo dilo",
-    "audio": "audio/just_say_the_word.mp3"
+    "audio": "audio/just_say_the_word.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_06",
     "en": "I don't buy it",
     "es": "No me lo creo",
-    "audio": "audio/i_dont_buy_it.mp3"
+    "audio": "audio/i_dont_buy_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_07",
     "en": "Call it a day",
     "es": "Dar algo por terminado",
-    "audio": "audio/call_it_a_day.mp3"
+    "audio": "audio/call_it_a_day.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_08",
     "en": "Easy does it",
     "es": "Con calma",
-    "audio": "audio/easy_does_it.mp3"
+    "audio": "audio/easy_does_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_09",
     "en": "Tell me about it",
     "es": "Dímelo a mí",
-    "audio": "audio/tell_me_about_it.mp3"
+    "audio": "audio/tell_me_about_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_10",
     "en": "Go with the flow",
     "es": "Dejarse llevar",
-    "audio": "audio/go_with_the_flow.mp3"
+    "audio": "audio/go_with_the_flow.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_11",
     "en": "Rings a bell",
     "es": "Me suena",
-    "audio": "audio/rings_a_bell.mp3"
+    "audio": "audio/rings_a_bell.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_12",
     "en": "Point taken",
     "es": "Te entiendo",
-    "audio": "audio/point_taken.mp3"
+    "audio": "audio/point_taken.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_13",
     "en": "Long story short",
     "es": "Resumiendo",
-    "audio": "audio/long_story_short.mp3"
+    "audio": "audio/long_story_short.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_14",
     "en": "Out of the blue",
     "es": "Como caído del cielo",
-    "audio": "audio/out_of_the_blue.mp3"
+    "audio": "audio/out_of_the_blue.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_15",
     "en": "Safe and sound",
     "es": "Sano y salvo",
-    "audio": "audio/safe_and_sound.mp3"
+    "audio": "audio/safe_and_sound.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_16",
     "en": "Stay out of it",
     "es": "No te metas",
-    "audio": "audio/stay_out_of_it.mp3"
+    "audio": "audio/stay_out_of_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_17",
     "en": "Keep me posted",
     "es": "Manténme informado",
-    "audio": "audio/keep_me_posted.mp3"
+    "audio": "audio/keep_me_posted.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_18",
     "en": "We're on the same page",
     "es": "Pensamos lo mismo",
-    "audio": "audio/were_on_the_same_page.mp3"
+    "audio": "audio/were_on_the_same_page.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_19",
     "en": "Are you for real?",
     "es": "¿Lo dices en serio?",
-    "audio": "audio/are_you_for_real.mp3"
+    "audio": "audio/are_you_for_real.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_20",
     "en": "Easy come, easy go",
     "es": "Lo que fácil viene, fácil se va",
-    "audio": "audio/easy_come_easy_go.mp3"
+    "audio": "audio/easy_come_easy_go.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_21",
     "en": "That's sick!",
     "es": "¡Eso es increible!",
-    "audio": "audio/thats_sick.mp3"
+    "audio": "audio/thats_sick.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_22",
     "en": "You rock!",
     "es": "¡Eres increíble!",
-    "audio": "audio/you_rock.mp3"
+    "audio": "audio/you_rock.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_23",
     "en": "Believe it or not",
     "es": "Lo creas o no",
-    "audio": "audio/believe_it_or_not.mp3"
+    "audio": "audio/believe_it_or_not.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_24",
     "en": "As you wish",
     "es": "Como desees",
-    "audio": "audio/as_you_wish.mp3"
+    "audio": "audio/as_you_wish.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_25",
     "en": "Face facts",
     "es": "Enfrenta los hechos",
-    "audio": "audio/face_facts.mp3"
+    "audio": "audio/face_facts.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_26",
     "en": "Speak plainly",
     "es": "Hablar claro",
-    "audio": "audio/speak_plainly.mp3"
+    "audio": "audio/speak_plainly.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_27",
     "en": "Every now and then",
     "es": "De vez en cuando",
-    "audio": "audio/every_now_and_then.mp3"
+    "audio": "audio/every_now_and_then.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_28",
     "en": "As a rule",
     "es": "Por lo general",
-    "audio": "audio/as_a_rule.mp3"
+    "audio": "audio/as_a_rule.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_29",
     "en": "Get into trouble",
     "es": "Meterse en problemas",
-    "audio": "audio/get_into_trouble.mp3"
+    "audio": "audio/get_into_trouble.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_30",
     "en": "Point of view",
     "es": "Punto de vista",
-    "audio": "audio/point_of_view.mp3"
+    "audio": "audio/point_of_view.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_31",
     "en": "In no time",
     "es": "Al instante",
-    "audio": "audio/in_no_time.mp3"
+    "audio": "audio/in_no_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_32",
     "en": "In any case",
     "es": "En cualquier caso",
-    "audio": "audio/in_any_case.mp3"
+    "audio": "audio/in_any_case.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_33",
     "en": "I'm not in the mood",
     "es": "No tengo ganas",
-    "audio": "audio/im_not_in_the_mood.mp3"
+    "audio": "audio/im_not_in_the_mood.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_34",
     "en": "What's on your mind",
     "es": "¿En qué piensas?",
-    "audio": "audio/whats_on_your_mind.mp3"
+    "audio": "audio/whats_on_your_mind.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_35",
     "en": "If you say so",
     "es": "Si tú lo dices",
-    "audio": "audio/if_you_say_so.mp3"
+    "audio": "audio/if_you_say_so.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_36",
     "en": "I'm running late",
     "es": "Se me hace tarde",
-    "audio": "audio/im_running_late.mp3"
+    "audio": "audio/im_running_late.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_37",
     "en": "Damn it!",
     "es": "¡Maldita sea!",
-    "audio": "audio/damn_it.mp3"
+    "audio": "audio/damn_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_38",
     "en": "I'll give it a shot",
     "es": "Lo intentaré",
-    "audio": "audio/ill_give_it_a_shot.mp3"
+    "audio": "audio/ill_give_it_a_shot.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_39",
     "en": "That was a close call",
     "es": "Eso estuvo cerca",
-    "audio": "audio/that_was_a_close_call.mp3"
+    "audio": "audio/that_was_a_close_call.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_40",
     "en": "What a mess!",
     "es": "¡Qué desastre!",
-    "audio": "audio/what_a_mess.mp3"
+    "audio": "audio/what_a_mess.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_41",
     "en": "Keep an eye on",
     "es": "Echar un ojo\nVigilar",
-    "audio": "audio/keep_an_eye_on.mp3"
+    "audio": "audio/keep_an_eye_on.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_42",
     "en": "It's on the house",
     "es": "La casa invita",
-    "audio": "audio/its_on_the_house.mp3"
+    "audio": "audio/its_on_the_house.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_43",
     "en": "Once in a lifetime",
     "es": "Una vez en la vida",
-    "audio": "audio/once_in_a_lifetime.mp3"
+    "audio": "audio/once_in_a_lifetime.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_44",
     "en": "Shake a leg",
     "es": "Apresúrate",
-    "audio": "audio/shake_a_leg.mp3"
+    "audio": "audio/shake_a_leg.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_45",
     "en": "Start from scratch",
     "es": "Empezar desde cero",
-    "audio": "audio/start_from_scratch.mp3"
+    "audio": "audio/start_from_scratch.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_46",
     "en": "The sooner, the better",
     "es": "Cuanto antes, mejor",
-    "audio": "audio/the_sooner_the_better.mp3"
+    "audio": "audio/the_sooner_the_better.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_47",
     "en": "Let's hang out",
     "es": "Vamos a vernos",
-    "audio": "audio/lets_hang_out.mp3"
+    "audio": "audio/lets_hang_out.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_48",
     "en": "Take it easy",
     "es": "Tranquilo/a",
-    "audio": "audio/take_it_easy.mp3"
+    "audio": "audio/take_it_easy.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   },
   {
     "id": "B1_49",
     "en": "Good for you",
     "es": "Me alegro por ti",
-    "audio": "audio/good_for_you.mp3"
+    "audio": "audio/good_for_you.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   }
 ]

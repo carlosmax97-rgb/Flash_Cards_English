@@ -400,7 +400,7 @@ body {
 
     align-items: center;
 
-    gap: 28px;
+    gap: 20px;/*28px*/
 
     padding: 20px;
 
@@ -863,4 +863,52 @@ Salto de linea en json
 ==================== */
 .card-back {
   white-space: pre-line;
+}
+
+/* =============================
+Botones para clasificar tarjetas
+============================= */
+.review-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  /*margin-top: 20px;*/
+}
+
+.review-buttons button {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 9px;/*12px*/
+  cursor: pointer;
+  color: var(--bg);
+}
+
+.good {
+  background: #28c76f;
+}
+
+.bad {
+  background: #ea5455;
+}
+
+/*
+.review-buttons:hover {
+  transform: scale(1.08);
+}
+*/
+
+.good:hover {
+  color: #0d552d;
+}
+
+.bad:hover {
+  color: #802020;
+}
+
+.good:active {
+  transform: scale(0.94)
+}
+
+.bad:active {
+  transform: scale(0.94)
 }

@@ -77,14 +77,22 @@
   <!--POP-UP RESULTADOS-->
   <div id="results-popup" class="popup hidden">
     <div class="popup-content">
-      <h2>Session Finished</h2>
+      <h2>Result</h2>
       <div class="results">
+        <p class="good-result">
+          &#10003;: <span id="good-count">0</span>
+        </p>
+        <p class="bad-result">
+          &#10007;: <span id="bad-count">0</span>
+        </p>
+        <!-- usando texto
         <p class="good-result">
           Remembered: <span id="good-count">0</span>
         </p>
         <p class="bad-result">
           Forgotten: <span id="bad-count">0</span>
         </p>
+        -->
       </div>
       <button id="restart-btn">
         Restart Deck

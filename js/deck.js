@@ -203,9 +203,10 @@ function renderCard() {
         `${currentIndex + 1} / ${cards.length}`;
     */
 
-    // V.2
-    progress.textContent =
-        `Reviewed: ${reviewedCount} Total: ${cards.length}`;
+    // V.2 UPDATE COUNTER
+    progress.innerHTML =
+        `Reviewed: ${reviewedCount}<br>
+         Total: ${cards.length}`;
 
 
     if (revealed) {

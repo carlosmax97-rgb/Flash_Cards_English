@@ -63,6 +63,9 @@ let historyStack = [];
 let rememberedCount = 0;
 let forgottenCount = 0;
 
+// contador independiente
+let reviewedCount = 0;
+
 // =========================
 // UI SOUNDS
 // =========================
@@ -194,8 +197,15 @@ function renderCard() {
 
 
     // UPDATE COUNTER
+
+    /*
     progress.textContent =
         `${currentIndex + 1} / ${cards.length}`;
+    */
+
+    // V.2
+    progress.textContent =
+        `Reviewed: ${reviewedCount} Total: ${cards.length}`;
 
 
     if (revealed) {
@@ -332,6 +342,9 @@ nextBtn.addEventListener("click", () => {
 
     playNavClick();
 
+    // para contador
+    reviewedCount++;
+
     // guardar en historial
     historyStack.push(currentCard);
 
@@ -437,6 +450,7 @@ backBtn.addEventListener("click", () => {
 
 audioBtn.addEventListener("click", () => {
 
+    /*
     if (cards.length === 0) return;
 
     const card = cards[currentIndex];
@@ -449,6 +463,20 @@ audioBtn.addEventListener("click", () => {
         );
 
     audio.play();
+    */
+
+    // V.2 audioBTN
+    if (!currentCard) return;
+
+    if (!currentCard.audio) return;
+
+    const audio =
+        new Audio(
+            `decks/${deckId}/${currentCard.audio}`
+        );
+
+    audio.play();
+
 });
 
 // =========================

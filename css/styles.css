@@ -912,3 +912,83 @@ Botones para clasificar tarjetas
 .bad:active {
   transform: scale(0.94)
 }
+
+/*POP-UP RESULTADOS*/
+.popup {
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+.popup-content {
+
+  background: #1e1e1e;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  min-width: 300px;
+}
+
+.results {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.good-result {
+
+  color: #4caf50;
+
+  font-size: 24px;
+
+  font-weight: bold;
+}
+
+.bad-result {
+
+  color: #f44336;
+
+  font-size: 24px;
+
+  font-weight: bold;
+}
+
+/*boton REINICIAR MAZO en POP-UP*/
+#restart-btn {
+
+  margin-top: 15px;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}

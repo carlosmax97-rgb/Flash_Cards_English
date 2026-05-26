@@ -42,6 +42,9 @@ const restartBtn =
     document.getElementById("restart-btn");
 restartBtn.addEventListener("click", restartDeck);
 
+const backDecksBtn =
+    document.getElementById("back-decks-btn");
+
 // =========================
 // STATE
 // =========================
@@ -298,6 +301,13 @@ function restartDeck() {
     // Renderizar
     renderCard();
 }
+
+// boton "Back to Decks" del POP-UP
+backDecksBtn.addEventListener("click", () => {
+
+    window.location.href =
+        "index.html";
+});
 
 // =========================
 // REVEAL CARD

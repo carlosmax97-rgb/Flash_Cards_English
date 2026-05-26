@@ -950,7 +950,7 @@ Botones para clasificar tarjetas
 
   text-align: center;
 
-  min-width: 300px;
+  min-width: 150px;/*300px*/
 }
 
 .results {

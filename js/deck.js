@@ -330,119 +330,141 @@ flashcard.addEventListener("click", () => {
 // =========================
 // NEXT CARD
 // =========================
-/*
+// V.3 nextBtn
 nextBtn.addEventListener("click", () => {
 
-    playNavClick();
+  playNavClick();
 
-    currentIndex++;
+  const card =
+      document.querySelector(".flashcard");
 
-    if (currentIndex >= cards.length) {
+  // =========================
+  // ANIMACION SALIDA
+  // =========================
 
-        currentIndex = 0;
-    }
+  card.classList.add("card-next-out");
 
-    revealed = false;
+  setTimeout(() => {
 
-    renderCard();
-});
-*/
+      // para contador
+      reviewedCount++;
 
-// V.2 de nextBtn
-nextBtn.addEventListener("click", () => {
+      // guardar en historial
+      historyStack.push(currentCard);
 
-    playNavClick();
+      // =========================
+      // PRIORIDAD A REPETICIONES
+      // =========================
 
-    // para contador
-    reviewedCount++;
+      if (
+          repeatQueue.length > 0 &&
+          Math.random() < 0.5
+      ) {
 
-    // guardar en historial
-    historyStack.push(currentCard);
-
-    // =========================
-    // PRIORIDAD A REPETICIONES
-    // =========================
-
-    if (
-        repeatQueue.length > 0 &&
-        Math.random() < 0.5
-    ) {
-
-        currentCard =
+          currentCard =
             repeatQueue.shift();
 
-    } else {
+      } else {
 
-        currentIndex++;
+          currentIndex++;
 
-        // =========================
-        // FIN DEL MAZO
-        // =========================
+          // =========================
+          // FIN DEL MAZO
+          // =========================
 
-        if (
-            currentIndex >= cards.length &&
-            repeatQueue.length === 0
-        ) {
+          if (
+              currentIndex >= cards.length &&
+              repeatQueue.length === 0
+          ) {
 
-            showResultsPopup();
+              showResultsPopup();
 
-            return;
-        }
+              return;
+          }
 
-        // =========================
-        // TARJETA NORMAL
-        // =========================
+          // =========================
+          // TARJETA NORMAL
+          // =========================
 
-        if (currentIndex < cards.length) {
+          if (currentIndex < cards.length) {
 
-            currentCard =
-                cards[currentIndex];
+              currentCard =
+                  cards[currentIndex];
 
-        } else if (repeatQueue.length > 0) {
+          } else if (repeatQueue.length > 0) {
 
-            currentCard =
-                repeatQueue.shift();
+              currentCard =
+                  repeatQueue.shift();
 
-        } else {
+          } else {
 
-            showResultsPopup();
+              showResultsPopup();
 
-            return;
-        }
-    }
+              return;
+          }
+      }
 
-    revealed = false;
+      revealed = false;
 
-    renderCard();
+      // quitar salida
+      card.classList.remove("card-next-out");
+
+      // posicion inicial entrada
+      card.classList.add("card-next-in");
+
+      // render
+      renderCard();
+
+      // forzar reflow
+      void card.offsetWidth;
+
+      // entrada
+      card.classList.remove("card-next-in");
+
+  }, 150);
 });
 
 // =========================
 // PREVIOUS CARD
 // =========================
+// V.3 prevBtn
 
 prevBtn.addEventListener("click", () => {
 
-    playNavClick();
+  playNavClick();
 
-    /*
-    currentIndex--;
+  // No hay historial
+  if (historyStack.length === 0) return;
 
-    if (currentIndex < 0) {
+  const card =
+      document.querySelector(".flashcard");
 
-        currentIndex =
-            cards.length - 1;
-    }
-    */
+  // salida
+  card.classList.add("card-prev-out");
 
-    // V.2 prevBtn
-    // No hay historial
-    if (historyStack.length === 0) return;
+  setTimeout(() => {
 
-    // Recuperar tarjeta anterior
-    currentCard = historyStack.pop();
-    revealed = false;
+      // Recuperar tarjeta anterior
+      currentCard = historyStack.pop();
 
-    renderCard();
+      revealed = false;
+
+      // quitar salida
+      card.classList.remove("card-prev-out");
+
+      // entrada
+      card.classList.add("card-prev-in");
+
+      // render
+      renderCard();
+
+      // reflow
+      void card.offsetWidth;
+
+      // activar transición
+      card.classList.remove("card-prev-in");
+
+  }, 150);
 });
 
 // =========================

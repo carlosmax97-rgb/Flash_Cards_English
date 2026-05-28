@@ -145,7 +145,7 @@ body {
 
     transition:
         transform 0.18s ease,
-        background 0.25s ease,
+        background-color 0.25s ease,/*background*/
         border-color 0.25s ease;
 
     box-shadow:
@@ -438,15 +438,41 @@ body {
     cursor: pointer;
 
     transition:
-        transform 0.15s ease,
-        background 0.2s ease,
-        border-color 0.2s ease;
+      transform 0.15s ease,
+      background-color 0.2s ease,/*background*/
+      opacity 0.15s ease,
+      border-color 0.2s ease;
 }
 
 
 .flashcard:active {
 
-    transform: scale(0.985);
+  transform: scale(0.985);
+}
+
+/* =================================
+  Animar tarjeta al clickear flechas
+=================================== */
+/* NEXT */
+.card-next-out {
+    opacity: 0;
+    transform: translateX(-15px);
+}
+
+.card-next-in {
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+/* PREV */
+.card-prev-out {
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+.card-prev-in {
+    opacity: 0;
+    transform: translateX(-15px);
 }
 
 
@@ -639,7 +665,7 @@ body {
 
 .audio-btn:hover {
 
-    opacity: 0.92;
+    opacity: 0.82;/*0.92*/
 }
 
 /*icono-speaker*/
@@ -695,7 +721,7 @@ body {
 
     transition:
         transform 0.15s ease,
-        background 0.2s ease;
+        background-color 0.2s ease;/*background*/
 }
 
 
@@ -881,6 +907,9 @@ Botones para clasificar tarjetas
   border-radius: 9px;/*12px*/
   cursor: pointer;
   color: var(--muted);
+  transition:
+    transform 0.15s ease,
+    opacity 0.2s ease;
 }
 
 .good {
@@ -898,17 +927,6 @@ Botones para clasificar tarjetas
 }
 */
 
-/*
-.good:hover {
-  color: #0d552d;
-}
-*/
-/*
-.bad:hover {
-  color: #802020;
-}
-*/
-
 .good:active {
   transform: scale(0.94);
   background: #28c76f;
@@ -921,6 +939,14 @@ Botones para clasificar tarjetas
   background: #ea5455;
   color: #222;
   border: 1px solid #ea5455;
+}
+
+.good:hover {
+  opacity: 0.82;
+}
+
+.bad:hover {
+  opacity: 0.82;
 }
 
 /*POP-UP RESULTADOS*/

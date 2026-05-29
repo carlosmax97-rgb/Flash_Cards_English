@@ -450,8 +450,8 @@ body {
   transform: scale(0.985);
 }
 
-/* =================================
-  Animar tarjeta al clickear flechas
+/* ==================================
+   Animar tarjeta al clickear flechas
 =================================== */
 /* NEXT */
 .card-next-out {
@@ -784,7 +784,7 @@ body {
 
     width: 88px;/*140px*/
 
-    height: 44px;/*50px*/
+    height: 50px;/*50px*/
 
     border: none;
 
@@ -833,7 +833,7 @@ body {
 
 
 /*=========
-CONTADOR
+  CONTADOR
 ======== */
 
 .contador {
@@ -842,7 +842,7 @@ CONTADOR
 
     width: 78px;/*140px*/
 
-    height: 70px;/*50px*/
+    height: 88px;/*50px*/
 
     padding: 2px;
 }
@@ -851,21 +851,21 @@ CONTADOR
 
     color: var(--muted);
 
-    font-size: 0.7em;/*0.95rem*/
+    font-size: 0.8em;/*0.95rem*/
 
     /*opacity: 0.4;*/
 
-    padding-top: 36px;/*12px*/
+    padding-top: 20px;/*12-36px*/
 
     /*border: 1px solid var(--muted);*/
 
     /*border-radius: 8px;var(--radius)*/
 
-    /*margin-top: 20px;*/
+    /*margin-top: 22px;*/
 }
 
 /* ==================================
-Quitar highlight táctil en móviles
+   Quitar highlight táctil en móviles
 =================================== */
 * {
     -webkit-tap-highlight-color: transparent;
@@ -884,16 +884,16 @@ button:focus {
     user-select: none;
 }
 
-/* ===================
-Salto de linea en json
-==================== */
+/* ======================
+   Salto de linea en json
+======================= */
 .card-back {
   white-space: pre-line;
 }
 
-/* =============================
-Botones para clasificar tarjetas
-============================= */
+/* ================================
+   Botones para clasificar tarjetas
+================================= */
 .review-buttons {
   display: flex;
   gap: 12px;
@@ -1016,7 +1016,7 @@ Botones para clasificar tarjetas
 /*boton REINICIAR MAZO en POP-UP*/
 #restart-btn {
 
-  margin-top: 15px;
+  margin-top: 30px;/*15px*/
 
   padding: 10px 20px;
 
@@ -1038,7 +1038,7 @@ Botones para clasificar tarjetas
 /*boton "BACK TO DECKS" en POP-UP*/
 #back-decks-btn {
 
-  margin-top: 15px;
+  margin-top: 30px;/*15px*/
 
   padding: 10px 20px;
 

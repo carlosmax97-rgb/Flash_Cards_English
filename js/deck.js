@@ -196,15 +196,7 @@ function renderCard() {
 
     if (cards.length === 0) return;
 
-    const card = currentCard;/*cards[currentIndex]*/
-
-
-    // UPDATE COUNTER
-
-    /*
-    progress.textContent =
-        `${currentIndex + 1} / ${cards.length}`;
-    */
+    const card = currentCard;
 
     // V.2 UPDATE COUNTER
     progress.innerHTML =
@@ -287,6 +279,9 @@ function restartDeck() {
     // Reiniciar índice
     currentIndex = 0;
 
+    // RESET REVEAL
+    revealed = false;
+
     // Mezclar mazo nuevamente
     shuffleDeck(cards);
 
@@ -297,6 +292,15 @@ function restartDeck() {
     document
         .getElementById("results-popup")
         .classList.add("hidden");
+
+    // RESET CLASES ANIMACION
+    const card =
+        document.querySelector(".flashcard");
+
+    card.classList.remove("card-next-out");
+    card.classList.remove("card-next-in");
+    card.classList.remove("card-prev-out");
+    card.classList.remove("card-prev-in");
 
     // Renderizar
     renderCard();
@@ -482,21 +486,6 @@ backBtn.addEventListener("click", () => {
 // =========================
 
 audioBtn.addEventListener("click", () => {
-
-    /*
-    if (cards.length === 0) return;
-
-    const card = cards[currentIndex];
-
-    if (!card.audio) return;
-
-    const audio =
-        new Audio(
-            `decks/${deckId}/${card.audio}`
-        );
-
-    audio.play();
-    */
 
     // V.2 audioBTN
     if (!currentCard) return;

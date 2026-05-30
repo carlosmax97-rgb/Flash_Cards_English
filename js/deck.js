@@ -67,7 +67,7 @@ let rememberedCount = 0;
 let forgottenCount = 0;
 
 // contador independiente
-let reviewedCount = 0;
+let reviewedCount = 0;/*0*/
 
 // =========================
 // UI SOUNDS
@@ -91,7 +91,43 @@ let buttonSound =
     new Audio("sounds/good_bad.mp3"
 );
 
+// back home del mazo=========
+backBtn.addEventListener("click", () => {
 
+    playNavClick();
+
+    setTimeout(() => {
+
+        window.location.href =
+            "index.html";
+
+    }, 150);
+
+
+});
+
+// botones del pop-up (Restart y Home)
+restartBtn.addEventListener("click", () => {
+
+    playNavClick();
+
+    restartDeck();
+});
+
+//====================================
+backDecksBtn.addEventListener("click", () => {
+
+    playNavClick();
+
+    setTimeout(() => {
+
+        window.location.href =
+            "index.html";
+
+    }, 150);
+
+
+});
 
 // =========================
 // DECK LEVEL THEME
@@ -306,12 +342,14 @@ function restartDeck() {
     renderCard();
 }
 
-// boton "Back to Decks" del POP-UP
+/*
+// boton "Back to Decks" del POP-UP //
 backDecksBtn.addEventListener("click", () => {
 
     window.location.href =
         "index.html";
 });
+*/
 
 // =========================
 // REVEAL CARD
@@ -471,6 +509,7 @@ prevBtn.addEventListener("click", () => {
   }, 150);
 });
 
+/*
 // =========================
 // BACK BUTTON
 // =========================
@@ -480,9 +519,10 @@ backBtn.addEventListener("click", () => {
     window.location.href =
         "index.html";
 });
+*/
 
 // =========================
-// AUDIO
+// AUDIO TRADUCCION
 // =========================
 
 audioBtn.addEventListener("click", () => {

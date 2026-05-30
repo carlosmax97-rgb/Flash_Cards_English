@@ -929,16 +929,17 @@ button:focus {
 
 .good:active {
   transform: scale(0.94);
-  background: #28c76f;
-  color: #222;
-  border: 1px solid #28c76f;
+  background: green;/*#28c76f*/
+  color: white;/*#222*/
+  border: 1px solid white;
 }
 
 .bad:active {
   transform: scale(0.94);
-  background: #ea5455;
-  color: #222;
-  border: 1px solid #ea5455;
+  background: red;/*#ea5455*/
+  color: white;/*#222*/
+  border: 1px solid white;
+  fill: white;
 }
 
 .good:hover {

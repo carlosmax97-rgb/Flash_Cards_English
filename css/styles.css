@@ -818,17 +818,23 @@ body {
     border-radius: 9px;/*var(--radius)*/
 }
 
-
+/*
 #backBtn .icon-arrow {
 
     width: 46px;
 
     height: 46px;
 }
+*/
 
 #backBtn:active {
 
     transform: scale(0.9);
+}
+
+#backBtn:hover {
+
+    opacity: 0.82;
 }
 
 
@@ -939,7 +945,6 @@ button:focus {
   background: red;/*#ea5455*/
   color: white;/*#222*/
   border: 1px solid white;
-  fill: white;
 }
 
 .good:hover {
@@ -1034,6 +1039,22 @@ button:focus {
   align-items: center;
 
   gap: 8px;
+
+  transition:
+    transform 0.15s ease,
+    opacity 0.2s ease;
+
+}
+
+#restart-btn:active {
+
+    transform: scale(0.9);
+
+}
+
+#restart-btn:hover {
+
+    opacity: 0.82;
 }
 
 /*boton "BACK TO DECKS" en POP-UP*/
@@ -1056,6 +1077,22 @@ button:focus {
   display: flex;
 
   gap: 8px;
+
+  transition:
+    transform 0.15s ease,
+    opacity 0.2s ease;
+
+}
+
+#back-decks-btn:active {
+
+    transform: scale(0.9);
+
+}
+
+#back-decks-btn:hover {
+
+    opacity: 0.82;
 }
 
 /*BOTONES "BACK" y "RESTART" uno debajo del otro*/

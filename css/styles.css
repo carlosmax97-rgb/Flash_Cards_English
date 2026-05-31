@@ -940,11 +940,25 @@ button:focus {
   border: 1px solid white;
 }
 
+/*despues de pulsar*/
+.button-good-active {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
 .bad:active {
   transform: scale(0.94);
   background: red;/*#ea5455*/
   color: white;/*#222*/
   border: 1px solid white;
+}
+
+/*despues de pulsar*/
+.button-bad-active {
+    background-color: red;
+    color: white;
+    border: 1px solid white;
 }
 
 .good:hover {

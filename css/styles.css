@@ -598,6 +598,9 @@ body {
     font-weight: 600;
     letter-spacing: -0.02em;
 
+    /*salto de linea en el json*/
+    white-space: pre-line;
+
 }
 
 
@@ -892,10 +895,11 @@ button:focus {
 
 /* ======================
    Salto de linea en json
-======================= */
+=======================
 .card-back {
   white-space: pre-line;
 }
+*/
 
 /* ================================
    Botones para clasificar tarjetas

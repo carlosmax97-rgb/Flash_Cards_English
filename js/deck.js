@@ -558,6 +558,18 @@ document
   .getElementById("btn-good")
   .addEventListener("click", () => {
 
+    //////////////////////////////////////////
+    // boton mantiene pulsacion por 0.5 segundos
+    const btn = document.getElementById("btn-good");
+
+    // efecto visual
+    btn.classList.add("button-good-active");
+
+    setTimeout(() => {
+      btn.classList.remove("button-good-active");
+    }, 500); // 0.5 segundos
+    ///////////////////////////////////////////
+
     buttonSound.currentTime = 0;
     buttonSound.play();
 
@@ -573,6 +585,18 @@ document
 document
   .getElementById("btn-bad")
   .addEventListener("click", () => {
+
+    /////////////////////////////////////////////
+    // boton mantiene pulsacion por 0.5 segundos
+    const btn = document.getElementById("btn-bad");
+
+    // efecto visual
+    btn.classList.add("button-bad-active");
+
+    setTimeout(() => {
+      btn.classList.remove("button-bad-active");
+    }, 500); // 0.5 segundos
+    /////////////////////////////////////////////
 
     buttonSound.currentTime = 0;
     buttonSound.play();

@@ -442,7 +442,7 @@
   {
     "id": "B1_41",
     "en": "Keep an eye on",
-    "es": "Echar un ojo\nVigilar",
+    "es": "Echar un ojo \n Vigilar",
     "audio": "audio/keep_an_eye_on.mp3",
 
     "stats": {
@@ -532,6 +532,28 @@
     "en": "Good for you",
     "es": "Me alegro por ti",
     "audio": "audio/good_for_you.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "B1_50",
+    "en": "Heads up!",
+    "es": "¡Cuidado! \n Atención",
+    "audio": "audio/heads_up.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "B1_51",
+    "en": "Back off!",
+    "es": "Aléjate \n No te metas \n Déjame en paz",
+    "audio": "audio/back_off.mp3",
 
     "stats": {
       "good": 0,

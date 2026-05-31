@@ -427,5 +427,27 @@
       "good": 0,
       "bad": 0
     }
+  },
+  {
+    "id": "A2_40",
+    "en": "Go ahead",
+    "es": "Adelante \n Hazlo",
+    "audio": "audio/go_ahead.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_41",
+    "en": "Guess what!",
+    "es": "¡Adivina qué!",
+    "audio": "audio/guess_what.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   }
 ]

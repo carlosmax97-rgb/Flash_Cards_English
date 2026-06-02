@@ -3,7 +3,7 @@
     "id": "deck_001",
     "title": "Básico cotidiano",
     "level": "A1",
-    "cards": 40
+    "cards": 60
   },
   {
     "id": "deck_002",
@@ -15,7 +15,7 @@
     "id": "deck_003",
     "title": "Intermedio",
     "level": "B1",
-    "cards": 50
+    "cards": 60
   },
   {
     "id": "deck_004",

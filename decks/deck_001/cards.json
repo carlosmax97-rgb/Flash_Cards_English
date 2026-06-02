@@ -177,5 +177,365 @@
       "good": 0,
       "bad": 0
     }
+  },
+  {
+    "id": "A1_16",
+    "en": "Show me",
+    "es": "Muéstrame",
+    "audio": "audio/show_me.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_17",
+    "en": "Get some rest",
+    "es": "Descansa un poco",
+    "audio": "audio/get_some_rest.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_18",
+    "en": "Stay away from me!",
+    "es": "¡Aléjate de mí!",
+    "audio": "audio/stay_away_from_me.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_19",
+    "en": "Don't touch me!",
+    "es": "¡No me toques!",
+    "audio": "audio/dont_touch_me.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_20",
+    "en": "Come with me",
+    "es": "Ven conmigo",
+    "audio": "audio/come_with_me.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_21",
+    "en": "I know it",
+    "es": "Lo sé",
+    "audio": "audio/i_know_it.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_22",
+    "en": "Stop the car!",
+    "es": "¡Detén el auto!",
+    "audio": "audio/stop_the_car.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_23",
+    "en": "Take off your shirt",
+    "es": "Quítate la camisa",
+    "audio": "audio/take_off_your_shirt.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_24",
+    "en": "What's this?",
+    "es": "¿Qué es esto?",
+    "audio": "audio/whats_this.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_25",
+    "en": "Get in",
+    "es": "Entra",
+    "audio": "audio/get_in.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_26",
+    "en": "Open it",
+    "es": "Ábrelo",
+    "audio": "audio/open_it.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_27",
+    "en": "Who are you?",
+    "es": "¿Quién eres?",
+    "audio": "audio/who_are_you.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_28",
+    "en": "Come on",
+    "es": "Vamos",
+    "audio": "audio/come_on.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_29",
+    "en": "Let's go!",
+    "es": "¡Vamos!",
+    "audio": "audio/lets_go.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_30",
+    "en": "Follow me",
+    "es": "Sígueme",
+    "audio": "audio/follow_me.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_31",
+    "en": "Just get up",
+    "es": "Solo levántate",
+    "audio": "audio/just_get_up.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_32",
+    "en": "Get up now!",
+    "es": "¡Levántate ahora!",
+    "audio": "audio/get_up_now.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_33",
+    "en": "All right",
+    "es": "Está bien",
+    "audio": "audio/all_right.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_34",
+    "en": "It's cold!",
+    "es": "¡Hace frío!",
+    "audio": "audio/its_cold.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_35",
+    "en": "Hold on",
+    "es": "Espera",
+    "audio": "audio/hold_on.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_36",
+    "en": "Have a nice day",
+    "es": "Que tenga un lindo día",
+    "audio": "audio/have_a_nice_day.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_37",
+    "en": "That's me",
+    "es": "Ese soy yo",
+    "audio": "audio/thats_me.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_38",
+    "en": "Stay here",
+    "es": "Quédate aquí",
+    "audio": "audio/stay_here.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_39",
+    "en": "Go, now!",
+    "es": "¡Vete, ahora!",
+    "audio": "audio/go_now.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_40",
+    "en": "I'll go",
+    "es": "Iré",
+    "audio": "audio/ill_go.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_41",
+    "en": "Who is it?",
+    "es": "¿Quién es?",
+    "audio": "audio/who_is_it.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_42",
+    "en": "Move!",
+    "es": "¡Muévete!",
+    "audio": "audio/move.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_43",
+    "en": "Get out of here!",
+    "es": "¡Sal de aquí!",
+    "audio": "audio/get_out_of_here.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_44",
+    "en": "Stay there!",
+    "es": "¡Quédate ahí!",
+    "audio": "audio/stay_there.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_45",
+    "en": "Stay inside!",
+    "es": "¡Quédate adentro!",
+    "audio": "audio/stay_inside.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_46",
+    "en": "Don't move!",
+    "es": "¡No te muevas!",
+    "audio": "audio/dont_move.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_47",
+    "en": "Are you ready?",
+    "es": "¿Estás listo?",
+    "audio": "audio/are_you_ready.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_48",
+    "en": "I'm here now",
+    "es": "Ya estoy aquí",
+    "audio": "audio/im_here_now.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_49",
+    "en": "I have to wait",
+    "es": "Me toca esperar",
+    "audio": "audio/i_have_to_wait.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_50",
+    "en": "I'm going for a walk",
+    "es": "Voy a caminar",
+    "audio": "audio/im_going_for_a_walk.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A1_51",
+    "en": "I just finished",
+    "es": "Acabo de terminar",
+    "audio": "audio/i_just_finished.mp3",
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   }
 ]

@@ -916,7 +916,7 @@ button:focus {
   padding: 12px 18px;
   border-radius: 9px;/*12px*/
   cursor: pointer;
-  color: var(--muted);
+  /*color: var(--muted);*/
   transition:
     transform 0.15s ease,
     opacity 0.2s ease;
@@ -924,11 +924,12 @@ button:focus {
 
 .good {
   background: #222;/*#28c76f*/
-
+  color: var(--muted);
 }
 
 .bad {
   background: #222;/*#ea5455*/
+  color: var(--muted);
 }
 
 /*
@@ -1058,6 +1059,8 @@ button:focus {
 
   gap: 8px;
 
+  color: #1e1e1e;
+
   transition:
     transform 0.15s ease,
     opacity 0.2s ease;
@@ -1095,6 +1098,8 @@ button:focus {
   display: flex;
 
   gap: 8px;
+
+  color: #1e1e1e;
 
   transition:
     transform 0.15s ease,

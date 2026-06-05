@@ -236,8 +236,7 @@ function renderCard() {
 
     // V.3 UPDATE COUNTER
     progress.innerHTML =
-        `Views: <br> ${reviewedCount} <br>
-        de <br> ${cards.length}`;
+        `Reviewed: <br> ${reviewedCount} de ${cards.length}`;
         /* V.2
         `Views: <br> ${reviewedCount}<br>
          Total: <br> ${cards.length}`;

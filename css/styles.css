@@ -689,7 +689,7 @@ body {
 
     display: flex;
 
-    gap: 2px;/*60px*/
+    gap: 4px;/*60px*/
 }
 
 
@@ -866,7 +866,7 @@ body {
 
     /*opacity: 0.4;*/
 
-    padding-top: 12px;/*12-36px*/
+    padding-top: 28px;/*12-36px*/
 
     /*border: 1px solid var(--muted);*/
 

@@ -234,10 +234,15 @@ function renderCard() {
 
     const card = currentCard;
 
-    // V.2 UPDATE COUNTER
+    // V.3 UPDATE COUNTER
     progress.innerHTML =
+        `${reviewedCount}<br>
+        de <br>${cards.length}`;
+        /* V.2
         `Views: <br> ${reviewedCount}<br>
          Total: <br> ${cards.length}`;
+         */
+
 
 
     if (revealed) {

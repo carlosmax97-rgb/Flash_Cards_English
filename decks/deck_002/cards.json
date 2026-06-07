@@ -449,5 +449,445 @@
       "good": 0,
       "bad": 0
     }
+  },
+  {
+    "id": "A2_42",
+    "en": "You're going to need it",
+    "es": "Lo vas a necesitar",
+    "audio": "audio/youre_going_to_need_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_43",
+    "en": "I want out!",
+    "es": "¡Quiero salir!",
+    "audio": "audio/i_want_out.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_44",
+    "en": "Let me out!",
+    "es": "¡Déjame salir!",
+    "audio": "audio/let_me_out.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_45",
+    "en": "It's not possible",
+    "es": "No es posible",
+    "audio": "audio/its_not_possible.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_46",
+    "en": "I don't believe it",
+    "es": "No lo creo",
+    "audio": "audio/i_dont_believe_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_47",
+    "en": "See for yourself",
+    "es": "Vea usted mismo",
+    "audio": "audio/see_for_yourself.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_48",
+    "en": "We found him",
+    "es": "Lo/a encontramos",
+    "audio": "audio/we_found_him.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_49",
+    "en": "We've done it",
+    "es": "Lo/a hemos hecho",
+    "audio": "audio/weve_done_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_50",
+    "en": "Nothing more",
+    "es": "Nada más",
+    "audio": "audio/nothing_more.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_51",
+    "en": "It's on the move",
+    "es": "Está en movimiento.",
+    "audio": "audio/its_on_the_move.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_52",
+    "en": "What is happening to me?",
+    "es": "¿Qué me está pasando?",
+    "audio": "audio/what_is_happening_to_me.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_53",
+    "en": "You can't scare me",
+    "es": "No puedes asustarme",
+    "audio": "audio/you_cant_scare_me.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_54",
+    "en": "We don't have time",
+    "es": "Nosotros/as no tenemos tiempo",
+    "audio": "audio/we_dont_have_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_55",
+    "en": "Do it slowly",
+    "es": "Hazlo lentamente",
+    "audio": "audio/do_it_slowly.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_56",
+    "en": "Do you know who this is?",
+    "es": "¿Sabes quién es?",
+    "audio": "audio/do_you_know_who_this_is.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_57",
+    "en": "It's looking for you",
+    "es": "Te está buscando",
+    "audio": "audio/its_looking_for_you.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_58",
+    "en": "The answer is out there",
+    "es": "La respuesta está ahí fuera.",
+    "audio": "audio/the_answer_is_out_there.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_59",
+    "en": "All the time",
+    "es": "Todo el tiempo",
+    "audio": "audio/all_the_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_60",
+    "en": "You got the money?",
+    "es": "¿Tienes el dinero?",
+    "audio": "audio/you_got_the_money.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_61",
+    "en": "It doesn't matter",
+    "es": "No importa",
+    "audio": "audio/it_doesnt_matter.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_62",
+    "en": "Let's get outta here!",
+    "es": "¡Salgamos de aquí!",
+    "audio": "audio/lets_get_outta_here.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_63",
+    "en": "You can make it",
+    "es": "Puedes hacerlo",
+    "audio": "audio/you_can_make_it.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_64",
+    "en": "There's no time",
+    "es": "No hay tiempo",
+    "audio": "audio/theres_no_time.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_65",
+    "en": "I don't know how",
+    "es": "No sé cómo",
+    "audio": "audio/i_dont_know_how.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_66",
+    "en": "I got him!",
+    "es": "¡Lo conseguí!",
+    "audio": "audio/i_got_him.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_67",
+    "en": "Almost there",
+    "es": "Casi llegamos",
+    "audio": "audio/almost_there.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_68",
+    "en": "Still nothing",
+    "es": "Todavía nada",
+    "audio": "audio/still_nothing.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_69",
+    "en": "What does that mean?",
+    "es": "¿Qué significa eso?",
+    "audio": "audio/what_does_that_mean.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_70",
+    "en": "How did you do that?",
+    "es": "¿Cómo hiciste eso?",
+    "audio": "audio/how_did_you_do_that.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_71",
+    "en": "Yeah, I promise",
+    "es": "Sí, lo prometo.",
+    "audio": "audio/yeah_i_promise.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_72",
+    "en": "It'll be fun",
+    "es": "Será divertido",
+    "audio": "audio/itll_be_fun.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_73",
+    "en": "I can't do this",
+    "es": "No puedo hacer esto",
+    "audio": "audio/i_cant_do_this.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_74",
+    "en": "I got you!",
+    "es": "¡Te entendí!",
+    "audio": "audio/i_got_you.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_75",
+    "en": "What'd I do?",
+    "es": "¿Qué hice?",
+    "audio": "audio/whatd_i_do.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_76",
+    "en": "Stay here for just a moment",
+    "es": "Quédese aquí solo un momento.",
+    "audio": "audio/stay_here_for_just_a_moment.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_77",
+    "en": "What are you gonna do?",
+    "es": "¿Qué vas a hacer?",
+    "audio": "audio/what_are_you_gonna_do.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_78",
+    "en": "I'm getting ready",
+    "es": "Me estoy preparando",
+    "audio": "audio/im_getting_ready.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_79",
+    "en": "There's not much left",
+    "es": "Ya no queda mucho",
+    "audio": "audio/theres_not_much_left.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_80",
+    "en": "I'm getting hungry",
+    "es": "Tengo hambre",
+    "audio": "audio/im_getting_hungry.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
+  },
+  {
+    "id": "A2_81",
+    "en": "It seems interesting",
+    "es": "Parece interesante",
+    "audio": "audio/it_seems_interesting.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    }
   }
 ]

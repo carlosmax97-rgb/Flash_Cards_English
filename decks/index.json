@@ -1,24 +1,24 @@
 [
   {
-    "id": "deck_001",
+    "id": "deck_001_A1",
     "title": "Básico cotidiano",
     "level": "A1",
     "cards": 60
   },
   {
-    "id": "deck_002",
+    "id": "deck_002_A2",
     "title": "Conversacional básico",
     "level": "A2",
     "cards": 81
   },
   {
-    "id": "deck_003",
+    "id": "deck_003_B1",
     "title": "Intermedio",
     "level": "B1",
     "cards": 60
   },
   {
-    "id": "deck_004",
+    "id": "deck_004_B2",
     "title": "Intermedio alto",
     "level": "B2",
     "cards": 40

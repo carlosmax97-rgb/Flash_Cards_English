@@ -1,0 +1,96 @@
+[
+  {
+    "id": "PV_01",
+    "en": "Come in",
+    "es": "Entrar",
+    "audio": "audio/come_in.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "Please **come in**, the door is open.",
+        "es": "(Por favor **entre**, la puerta está abierta)"
+      }
+    ]
+  },
+  {
+    "id": "PV_02",
+    "en": "Carry on",
+    "es": "Continuar",
+    "audio": "audio/carry_on.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "Ok, **carry on** your work.",
+        "es": "(Vale, **continúa** con tu trabajo)"
+      }
+    ]
+  },
+  {
+    "id": "PV_03",
+    "en": "Hold on",
+    "es": "Espera",
+    "audio": "audio/hold_on.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "**Hold on** mom, I have to turn off the kitchen.",
+        "es": "(**Espera** mamá, tengo que apagar la cocina.)"
+      }
+    ]
+  },
+  {
+    "id": "PV_04",
+    "en": "Watch out",
+    "es": "Cuidado",
+    "audio": "audio/watch_out.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "**Watch out!** Stop the car!.",
+        "es": "(**¡Cuidado!** ¡Detén el auto!)"
+      }
+    ]
+  },
+  {
+    "id": "PV_05",
+    "en": "Came up with",
+    "es": "Inventar \n Armar \n Conseguir",
+    "audio": "audio/watch_out.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "I'll have to **come up with** a plan.",
+        "es": "(Tendré que **inventarme** un plan)"
+      },
+      {
+        "en": "Will you be able to **come up with** the cash?.",
+        "es": "(¿Puedes **conseguir** el dinero?)"
+      }
+    ]
+  }
+]

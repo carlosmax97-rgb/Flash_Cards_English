@@ -12,8 +12,8 @@
 
     "examples": [
       {
-        "en": "Please **come in**, the door is open.",
-        "es": "(Por favor **entre**, la puerta está abierta)"
+        "en": "—Please **come in**, the door is open.",
+        "es": "&emsp;(Por favor **entre**, la puerta está abierta)"
       }
     ]
   },
@@ -30,15 +30,15 @@
 
     "examples": [
       {
-        "en": "Ok, **carry on** your work.",
-        "es": "(Vale, **continúa** con tu trabajo)"
+        "en": "—Ok, **carry on** your work.",
+        "es": "&emsp;(Vale, **continúa** con tu trabajo)"
       }
     ]
   },
   {
     "id": "PV_03",
     "en": "Hold on",
-    "es": "Espera",
+    "es": "Esperar \n Aguantar",
     "audio": "audio/hold_on.mp3",
 
     "stats": {
@@ -48,8 +48,8 @@
 
     "examples": [
       {
-        "en": "**Hold on** mom, I have to turn off the kitchen.",
-        "es": "(**Espera** mamá, tengo que apagar la cocina.)"
+        "en": "—**Hold on** mom, I have to turn off the kitchen.",
+        "es": "&emsp;(**Espera** mamá, tengo que apagar la cocina.)"
       }
     ]
   },
@@ -66,8 +66,8 @@
 
     "examples": [
       {
-        "en": "**Watch out!** Stop the car!.",
-        "es": "(**¡Cuidado!** ¡Detén el auto!)"
+        "en": "—**Watch out!** Stop the car!.",
+        "es": "&emsp;(**¡Cuidado!** ¡Detén el auto!)"
       }
     ]
   },
@@ -84,12 +84,68 @@
 
     "examples": [
       {
-        "en": "I'll have to **come up with** a plan.",
-        "es": "(Tendré que **inventarme** un plan)"
+        "en": "—I'll have to **come up with** a plan.",
+        "es": "&emsp;(Tendré que **inventarme** un plan)"
       },
       {
-        "en": "Will you be able to **come up with** the cash?.",
-        "es": "(¿Puedes **conseguir** el dinero?)"
+        "en": "—Will you be able to **come up with** the cash?.",
+        "es": "&emsp;(¿Puedes **conseguir** el dinero?)"
+      }
+    ]
+  },
+  {
+    "id": "PV_06",
+    "en": "Get along",
+    "es": "Llevarse bien \n Arreglarselas \n Prosperar \n Irse",
+    "audio": "audio/get_along.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "—I **get along** well with my friends.",
+        "es": "&emsp;(Me **llevo bien** con mis amigos)"
+      },
+      {
+        "en": "—We can **get along** without a car.",
+        "es": "&emsp;(Podemos **arreglárnoslas** sin coche)"
+      },
+      {
+        "en": "—How are you **get along** with your studies?.",
+        "es": "&emsp;(¿Cómo te va con los estudios?)"
+      },
+      {
+        "en": "—I have to **get along** now; it's been nice chatting to you.",
+        "es": "&emsp;(Tengo que **irme** ahora, fue bueno charlar contigo)"
+      }
+    ]
+  },
+  {
+    "id": "PV_07",
+    "en": "Fed up",
+    "es": "Harto \n Cansado",
+    "audio": "audio/fed_up.mp3",
+
+    "stats": {
+      "good": 0,
+      "bad": 0
+    },
+
+    "examples": [
+      {
+        "en": "—You look **fed up**. What's wrong?.",
+        "es": "&emsp;(Pareces **cansado**. ¿Qué pasó?)"
+      },
+      {
+        "en": "—Audrey was **fed up** with the bad weather.",
+        "es": "&emsp;(Audrey estaba **harta** del mal tiempo)"
+      },
+      {
+        "en": "—I'm so **fed up** with those movies, they're just so stupid.",
+        "es": "&emsp;(Estoy **harta** de esas películas, son tan estúpidas.)"
       }
     ]
   }

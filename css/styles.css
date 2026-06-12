@@ -313,7 +313,7 @@ body {
 
     background: #222134;
 
-    color: #65659C;
+    color: #8282a1;
 }
 
 
@@ -572,7 +572,7 @@ body {
 
 .flashcard[data-level="pv"] {
 
-    background: #65659C
+    background: #8282a1
 
 }
 
@@ -624,7 +624,7 @@ body {
 
     display: none;
     margin-top: 0em;/*1rem*/
-    font-size: 0.8em;
+    font-size: 1em;
     font-style: normal;
     line-height: 1.4;/*1.4*/
     opacity: 1.0;
@@ -649,8 +649,6 @@ body {
     background: rgb(255, 255, 255);
     font-weight: 600;
     font-style: normal;
-    padding-left: 2px;
-    padding-right: 2px;
     opacity: 0.8;
 
 }

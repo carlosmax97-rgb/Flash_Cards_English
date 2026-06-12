@@ -627,7 +627,7 @@ body {
     font-size: 1.2em;
     font-style: normal;
     line-height: 1.4;/*1.4*/
-    opacity: 1.0;
+    /*opacity: 1.0;*/
     color: var(--bg);
     text-align: left;
 
@@ -636,8 +636,8 @@ body {
 /*Separar ejemplos*/
 .example-block {
     margin-bottom: 1em;
-    background-color: var(--muted);
-    border-radius: 4px;
+    background-color: #e6e6e6d5;
+    border-radius: 6px;
     padding: 0.5em;
 }
 
@@ -646,10 +646,10 @@ body {
 ====================== */
 .highlight {
 
-    background: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--bg);
     font-weight: 600;
+    /*background-color: rgb(177, 211, 177);*/
     font-style: normal;
-    opacity: 0.8;
 
 }
 

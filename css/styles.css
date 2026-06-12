@@ -309,6 +309,13 @@ body {
     color: #DB7676;
 }
 
+.level-pv {
+
+    background: #222134;
+
+    color: #65659C;
+}
+
 
 /* =========================
    BUTTON
@@ -563,6 +570,12 @@ body {
     */
 }
 
+.flashcard[data-level="pv"] {
+
+    background: #65659C
+
+}
+
 
 /* =========================
    CARD CONTENT
@@ -600,6 +613,45 @@ body {
 
     /*salto de linea en el json*/
     white-space: pre-line;
+
+}
+
+
+/* ========
+   EXAMPLE
+==========*/
+.card-example {
+
+    display: none;
+    margin-top: 0em;/*1rem*/
+    font-size: 0.8em;
+    font-style: normal;
+    line-height: 1.4;/*1.4*/
+    opacity: 1.0;
+    color: var(--bg);
+    text-align: left;
+
+}
+
+/*Separar ejemplos*/
+.example-block {
+    margin-bottom: 1em;
+    background-color: var(--muted);
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+/* =====================
+   Highlight en el texto
+====================== */
+.highlight {
+
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 2px;
+    padding-right: 2px;
+    opacity: 0.8;
 
 }
 

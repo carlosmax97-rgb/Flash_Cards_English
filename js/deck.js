@@ -45,6 +45,10 @@ restartBtn.addEventListener("click", restartDeck);
 const backDecksBtn =
     document.getElementById("back-decks-btn");
 
+// EXAMPLE en el reverso de la tarjeta
+const cardExample =
+    document.getElementById("cardExample");
+
 // =========================
 // STATE
 // =========================
@@ -225,6 +229,20 @@ async function loadCards() {
 }
 
 
+// ==============================
+// funcion Highlight en el texto
+// ==============================
+function formatHighlight(text) {
+
+    return text.replace(
+        /\*\*(.*?)\*\*/g,
+        '<span class="highlight">$1</span>'
+    );
+
+}
+
+
+
 // =========================
 // RENDER CARD
 // =========================
@@ -249,6 +267,31 @@ function renderCard() {
         cardText.textContent =
             card.es;
 
+        // EXAMPLE en el reverso de la tarjeta//
+        // si no quiero resaltar text cambiar <p></p> por esto//
+        /*
+           <p>${ex.en}</p>
+           <p>${ex.es}</p>
+        */
+        if (card.examples?.length) {
+
+            cardExample.innerHTML = card.examples
+                .map(ex => `
+                    <div class= "example-block">
+                      <p>${formatHighlight(ex.en)}</p>
+                      <p>${formatHighlight(ex.es)}</p>
+                    </div>
+                `)
+                .join("");
+
+            cardExample.style.display = "block";
+
+        } else {
+
+            cardExample.style.display = "none";
+        }
+        ////////////////////////////////////////
+
         cardHint.style.display =
             "none";
 
@@ -256,6 +299,10 @@ function renderCard() {
 
         cardText.textContent =
             card.en;
+
+        //EXAMPLE////////////////////////////
+        cardExample.style.display = "none";
+        ///////////////////////////////////
 
         cardHint.style.display =
             "block";

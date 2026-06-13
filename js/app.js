@@ -25,3 +25,36 @@ deckCards.forEach(card => {
     });
 
 });
+
+
+//Nro de tarjetas automatico
+deckCards.forEach(async card => {
+
+    const deckId =
+        card.dataset.deck;
+
+    const counter =
+        card.querySelector(".card-count");
+
+    try {
+
+        const response =
+            await fetch(
+                `decks/${deckId}/cards.json`
+            );
+
+        const cards =
+            await response.json();
+
+        counter.textContent =
+            `${cards.length} tarjetas`;
+
+    } catch (error) {
+
+        console.error(error);
+
+        counter.textContent =
+            "0 tarjetas";
+    }
+
+});

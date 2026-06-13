@@ -624,7 +624,7 @@ body {
 
     display: none;
     margin-top: 0em;/*1rem*/
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-style: normal;
     line-height: 1.4;/*1.4*/
     /*opacity: 1.0;*/
@@ -635,7 +635,7 @@ body {
 
 /*Separar ejemplos*/
 .example-block {
-    margin-bottom: 1em;
+    margin-top: 1em;
     background-color: #e6e6e6d5;
     border-radius: 6px;
     padding: 0.5em;
@@ -646,7 +646,7 @@ body {
 ====================== */
 .highlight {
 
-    border-bottom: 1px solid var(--bg);
+    border-bottom: 2px solid var(--bg);
     font-weight: 600;
     /*background-color: rgb(177, 211, 177);*/
     font-style: normal;

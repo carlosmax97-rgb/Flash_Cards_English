@@ -542,7 +542,7 @@
     "id": "A1_52",
     "en": "He's too strong",
     "es": "Es demasiado fuerte",
-    "audio": "hes_too_strong.mp3",
+    "audio": "audio/hes_too_strong.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -552,7 +552,7 @@
     "id": "A1_53",
     "en": "That's not good",
     "es": "Eso no es bueno",
-    "audio": "thats_not_good.mp3",
+    "audio": "audio/thats_not_good.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -562,7 +562,7 @@
     "id": "A1_54",
     "en": "You don't live here",
     "es": "Ya no vives aquí",
-    "audio": "you_dont_live_here.mp3",
+    "audio": "audio/you_dont_live_here.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -572,7 +572,7 @@
     "id": "A1_55",
     "en": "Are we safe here?",
     "es": "¿Estamos a salvo aquí?",
-    "audio": "are_we_safe_here.mp3",
+    "audio": "audio/are_we_safe_here.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -582,7 +582,7 @@
     "id": "A1_56",
     "en": "He's over here",
     "es": "Él está por aquí",
-    "audio": "hes_over_here.mp3",
+    "audio": "audio/hes_over_here.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -592,7 +592,7 @@
     "id": "A1_57",
     "en": "That's my wife",
     "es": "Esa es mi esposa",
-    "audio": "thats_my_wife.mp3",
+    "audio": "audio/thats_my_wife.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -602,7 +602,7 @@
     "id": "A1_58",
     "en": "I'm not dead",
     "es": "No estoy muerto",
-    "audio": "im_not_dead.mp3",
+    "audio": "audio/im_not_dead.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -612,7 +612,7 @@
     "id": "A1_59",
     "en": "The answer is no",
     "es": "La respuesta es no",
-    "audio": "the_answer_is_no.mp3",
+    "audio": "audio/the_answer_is_no.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -622,7 +622,7 @@
     "id": "A1_60",
     "en": "I see it",
     "es": "Lo veo",
-    "audio": "i_see_it.mp3",
+    "audio": "audio/i_see_it.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -632,7 +632,7 @@
     "id": "A1_61",
     "en": "Let's do this",
     "es": "Hagámoslo",
-    "audio": "lets_do_this.mp3",
+    "audio": "audio/lets_do_this.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -642,7 +642,7 @@
     "id": "A1_62",
     "en": "Go to your room",
     "es": "Ve a tu habitación",
-    "audio": "go_to_your_room.mp3",
+    "audio": "audio/go_to_your_room.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -652,7 +652,7 @@
     "id": "A1_63",
     "en": "Where's my money?",
     "es": "¿Dónde está mi dinero?",
-    "audio": "wheres_my_money.mp3",
+    "audio": "audio/wheres_my_money.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -662,7 +662,7 @@
     "id": "A1_64",
     "en": "I have a brother",
     "es": "Tengo un hermano",
-    "audio": "i_have_a_brother.mp3",
+    "audio": "audio/i_have_a_brother.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -672,7 +672,7 @@
     "id": "A1_65",
     "en": "Cancel the show",
     "es": "Cancela el espectáculo",
-    "audio": "cancel_the_show.mp3",
+    "audio": "audio/cancel_the_show.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -682,7 +682,7 @@
     "id": "A1_66",
     "en": "Okay, they're gone",
     "es": "Bien, ya se fueron",
-    "audio": "okay_theyre_gone.mp3",
+    "audio": "audio/okay_theyre_gone.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -692,7 +692,7 @@
     "id": "A1_67",
     "en": "There's a phone call for you",
     "es": "Hay una llamada para ti",
-    "audio": "theres_a_phone_call_for_you.mp3",
+    "audio": "audio/theres_a_phone_call_for_you.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -702,7 +702,7 @@
     "id": "A1_68",
     "en": "I'm so bored",
     "es": "Estoy muy aburrido",
-    "audio": "im_so_bored.mp3",
+    "audio": "audio/im_so_bored.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -712,7 +712,7 @@
     "id": "A1_69",
     "en": "There is a solution",
     "es": "Hay una solución",
-    "audio": "there_is_a_solution.mp3",
+    "audio": "audio/there_is_a_solution.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -722,7 +722,7 @@
     "id": "A1_70",
     "en": "It's just a rumor",
     "es": "Es solo un rumor",
-    "audio": "its_just_a_rumor.mp3",
+    "audio": "audio/its_just_a_rumor.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -732,7 +732,7 @@
     "id": "A1_71",
     "en": "Take it with you",
     "es": "Llévatelo",
-    "audio": "take_it_with_you.mp3",
+    "audio": "audio/take_it_with_you.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -742,7 +742,7 @@
     "id": "A1_72",
     "en": "Bless you",
     "es": "Salud",
-    "audio": "bless_you.mp3",
+    "audio": "audio/bless_you.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -752,7 +752,7 @@
     "id": "A1_73",
     "en": "Are you feeling better?",
     "es": "¿Te sientes mejor?",
-    "audio": "are_you_feeling_better.mp3",
+    "audio": "audio/are_you_feeling_better.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -762,7 +762,7 @@
     "id": "A1_74",
     "en": "After me",
     "es": "Después de mí",
-    "audio": "after_me.mp3",
+    "audio": "audio/after_me.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -772,7 +772,7 @@
     "id": "A1_75",
     "en": "How much money do you have?",
     "es": "¿Cuánto dinero tienes?",
-    "audio": "how_much_money_do_you_have.mp3",
+    "audio": "audio/how_much_money_do_you_have.mp3",
     "stats": {
       "good": 0,
       "bad": 0
@@ -782,7 +782,7 @@
     "id": "A1_76",
     "en": "Will you tell him?",
     "es": "¿Se lo dirás?",
-    "audio": "will_you_tell_him.mp3",
+    "audio": "audio/will_you_tell_him.mp3",
     "stats": {
       "good": 0,
       "bad": 0
